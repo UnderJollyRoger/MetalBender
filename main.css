@@ -55,13 +55,6 @@ body {
     border: 1px solid #1f1412;
 }
 
-@media all and (min-width: 1024px) {
-    #map {
-        height: 768px;
-        width: 1024px;
-    }
-}
-
 .sidepanel-content {
     font-size: 1rem;
 }
@@ -140,4 +133,11 @@ input[type=submit]:hover {
     text-align: center;
     color: white;
     font-weight: bold;
+}
+
+@media all and (min-width: 1024px) {
+    #map {
+        height: 100%;
+        width: 100%;
+    }
 }
