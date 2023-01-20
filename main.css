@@ -1,11 +1,6 @@
 html,
 body,
 html,
-/* HTML5 Template Styles for HTML5Template page */
-/* Make HTML5 layout elements block elements for older browsers */
-header, nav, aside, article, footer, section, figure, figcaption {
-    display: block;
-  }
 
 body {
     margin: 0;
