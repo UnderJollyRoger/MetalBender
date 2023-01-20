@@ -51,6 +51,10 @@
 </head>
 
 <body>
+      <script>
+ //Make older browsers aware of new HTML5 layout tags
+ 'header nav aside article footer section figure figcaption'.replace(/\w+/g, function (n) { document.createElement(n) })
+ </script>
     <header class="header">
         <h1 style="display: inline-block">Metal Bender </h1>
         <h5 style="display: inline-block">Hold on to your toupée!</h5>
