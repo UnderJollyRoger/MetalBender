@@ -165,35 +165,27 @@
                                     also be great.</font>
                             </h5>
                             <div class="container">
-                                <form action="mailto:jqpilbea@gmail.com" method="get" enctype="text/plain">
-                                    <label for="country">TYPE</label>
-                                    <select id="locationtype" name="Location Type">
-                                        <option value="Festival">Festival</option>
-                                        <option value="Pub">Pub</option>
-                                        <option value="Pub & Restaurant">Pub & Restaurant</option>
-                                        <option value="Pub & Venue">Pub & Venue</option>
-                                        <option value="Restaurant">Restaurant</option>
-                                        <option value="Record/Clothing Store">Record Store</option>
-                                        <option value="Venue">Venue</option>
-                                        <option value="Other">Other...</option>
-                                    </select>
-                                    <label for="name">NAME</label>
-                                    <input type="text" id="name" name="name" placeholder="...of location">
-                                    <label for="addy">ADDRESS</label>
-                                    <input type="text" id="addy" name="address" placeholder="...of location">
-                                    <label for="country">COUNTRY</label>
-                                    <input type="text" id="country" name="country" placeholder="...of location">
-                                    <label for="hours">HOURS</label>
-                                    <input type="text" id="hours" name="hours" placeholder="...operating hours">
-                                    <label for="website">WEBSITE</label>
-                                    <input type="text" id="website" name="website" placeholder="...if there is one">
-                                    <label for="subject">DESCRIPTION</label>
-                                    <textarea id="description" name="subject"
-                                        placeholder="your description will added once reviewed..."
-                                        style="height:200px"></textarea>
-                                    <input type="submit" name="submit" value="Send" />
-                                    <input type="reset" name="reset" value="Clear Form" />
-                                </form>
+                                 <form action="mailto:info@example.com" method="get" enctype="text/plain">
+      <div>
+        <label for="name">Name:
+          <input type="text" name="name" id="name" />
+        </label>
+      </div>
+      <div>
+        <label for="email">Email:
+          <input type="text" name="email" id="email" />
+        </label>
+      </div>
+      <div>
+        <label>Comments:</label>
+        <br />
+        <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea>
+      </div>
+      <div>
+        <input type="submit" name="submit" value="Send" />
+        <input type="reset" name="reset" value="Clear Form" />
+      </div>
+    </form>
 
                             </div>
                         </div>
