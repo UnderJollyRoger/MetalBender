@@ -40,6 +40,11 @@
     <!-- Bookmarks -->
     <script src="/dist/L.Control.Bookmarks.min.js"></script>
     <link type="text/css" rel="stylesheet" href="/dist/leaflet.bookmarks.css">
+    <!-- Leaflet.Legend -->
+    <link rel="stylesheet" href="/dist/leaflet.legend.css"/>
+    <script src="/dist/leaflet.legend.js"></script>
+    
+    
     <!-- jQuery code to help with :hover on iOS devices -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script type="text/javascript">
@@ -160,12 +165,13 @@
                         <div class="sidepanel-tab-content" data-tab-content="tab-5">
                             <h4>Suggest a location! </h4>
                             <h5>
-                                <font color="grey">Send me an email if you know of a place in your neck of the woods!
-                                    Please include the name, address and type of place. A link to a website would
+                                <font color="grey">Send me info on a place in your neck of the woods!
+                                    Going to need the name, address and type of place. A link to a website would
                                     also be great.</font>
                             </h5>
                             <div class="container">
-                                <form action="mailto:jqpilbea@gmail.com?subject=New MetalBender Location!" method="post" enctype="text/plain">
+                                <form action="mailto:jqpilbea@gmail.com?subject=New MetalBender Location!" method="post"
+                                    enctype="text/plain">
                                     <label for="country">TYPE</label>
                                     <select id="locationtype" name="Location Type">
                                         <option value="Festival">Festival</option>
@@ -314,7 +320,7 @@
             });
             clusters.addLayer(metallocations);
             map.addLayer(clusters);
-            // add search
+            // add city search
             map.addControl(new L.Control.Search({
                 layer: clusters,
                 textPlaceholder: 'Search by city...',
@@ -384,6 +390,52 @@
         // OSM search
         var geocoder = L.Control.geocoder({
             defaultMarkGeocode: true,
+        }).addTo(map);
+
+        // Legend
+        const legend = L.control.Legend({
+            position: "topleft",
+            collapsed: true,
+            symbolWidth: 64,
+            symbolHeight: 64,
+            opacity: 1,
+            column: 2,
+            legends: [{
+                label: "Festival",
+                type: "image",
+                url: "images/festival.png",
+            },
+            {
+                label: " Pub",
+                type: "image",
+                url: "images/pub.png",
+            },
+            {
+                label: "Pub & Restaurant",
+                type: "image",
+                url: "images/pubandrestaurant.png",
+            },
+            {
+                label: "Pub & Venue",
+                type: "image",
+                url: "images/pubandvenue.png",
+            },
+            {
+                label: "Restaurant",
+                type: "image",
+                url: "images/restaurant.png",
+            },
+            {
+                label: "Record Store",
+                type: "image",
+                url: "images/recordstore.png",
+            },
+            {
+                label: "Venue",
+                type: "image",
+                url: "images/venue.png",
+            },
+         ]
         }).addTo(map);
     </script>
 </body>
