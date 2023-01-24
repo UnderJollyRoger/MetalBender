@@ -204,7 +204,7 @@
             symbolHeight: 24,
             opacity: 1.0,
             column: 1,
-            collapsed: false,
+            collapsed: true,
         },
 
         initialize: function (options) {
