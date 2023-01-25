@@ -96,13 +96,9 @@
                 </nav>
                 <div class="sidepanel-content-wrapper">
                     <div class="sidepanel-content">
+                        <!-- Info tab -->
                         <div class="sidepanel-tab-content" data-tab-content="tab-1">
                             <h4 id="popuptitle"></h4>
-                            <table style="width:100%;">
-                                <tr>
-                                    <td id="pic1" ;></td>
-                                </tr>
-                            </table><b></b>
                             <table style="width:100%;">
                                 <tr>
                                     <th align="left">Address: </th>
@@ -118,14 +114,22 @@
                                 </tr>
                             </table>
                         </div>
+                        <!-- Review tab -->
                         <div class="sidepanel-tab-content" data-tab-content="tab-2">
+                            <div class="container">
+                                <h6 id="popupname"></h6>
+                                <div id="f4">Reviews will show here when you click a location in the map.</div>
+                                <div id="f5"></div>
+                            </div>
+                            <p>
                             <h4>Leave a review!</h4>
+                            </p>
                             <h5>
                                 <font color="grey">Let others know about the place you visited!</font>
                             </h5>
                             <div class="container">
-                                <form action="mailto:metalneverbendz@gmail.com?subject=New MetalBender Review!" method="post"
-                                    enctype="text/plain">
+                                <form action="mailto:metalneverbendz@gmail.com?subject=New MetalBender Review!"
+                                    method="post" enctype="text/plain">
                                     <label for="name">NAME</label>
                                     <input type="text" id="name" name="name" placeholder="...of location">
                                     <label for="subject">DESCRIPTION</label>
@@ -138,10 +142,12 @@
                                 </form>
                             </div>
                         </div>
+                        <!-- Bookmarks tab -->
                         <div class="sidepanel-tab-content" data-tab-content="tab-3">
                             <h4>Coming soon...</h4>
                             <p>Nothing to see here.</p>
                         </div>
+                        <!-- Contact tab -->
                         <div class="sidepanel-tab-content" data-tab-content="tab-4">
                             <h4>Suggest a location! </h4>
                             <h5>
@@ -150,8 +156,8 @@
                                     also be great.</font>
                             </h5>
                             <div class="container">
-                                <form action="mailto:metalneverbendz@gmail.com?subject=New MetalBender Location!" method="post"
-                                    enctype="text/plain">
+                                <form action="mailto:metalneverbendz@gmail.com?subject=New MetalBender Location!"
+                                    method="post" enctype="text/plain">
                                     <label for="country">TYPE</label>
                                     <select id="locationtype" name="Location Type">
                                         <option value="Festival">Festival</option>
@@ -284,11 +290,16 @@
                         //place attributes in panel table.
                         var fieldA = document.getElementById('popuptitle');
                         fieldA.innerHTML = "<a href='" + feature.properties.Website + "'>" + feature.properties.Name + "</a>";
-
+                        var fieldB = document.getElementById('popupname');
+                        fieldB.innerHTML = feature.properties.Name;
                         var field1 = document.getElementById('f1');
                         field1.innerHTML = feature.properties.Address;
                         var field3 = document.getElementById('f3');
                         field3.innerHTML = e.target.feature.properties.Descriptio;
+                        var field4 = document.getElementById('f4');
+                        field4.innerHTML = feature.properties.Review;
+                        var field5 = document.getElementById('f5');
+                        field5.innerHTML = feature.properties.Reviewer;
                     });
                 }
             });
