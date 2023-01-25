@@ -129,12 +129,33 @@ input[type=reset]:hover {
     font-weight: bold;
 }
 
+/* address and review fonts in sidepanel */
+#f1,
+#f3,
+#f4,
+#f5 {
+    font-style: italic;
+}
+
+#f4 {
+    display: inline-block;
+    /* margin-right: 10px;
+    width: 200px */
+}
+
+#f5 {
+    display: inline-block;
+    font-size: small;
+    color: #666;
+}
+
 @media all and (min-width: 1024px) {
     #map {
         height: 768px;
         width: 1024px;
     }
 }
+
 
 /* @media all and (min-width: 1024px) {
     #map {
