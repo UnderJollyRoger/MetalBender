@@ -16,7 +16,6 @@
     color:#808080;
   }
   
-  
   .leaflet-legend-item {
     display: table;
     margin: 2px 0;
@@ -41,15 +40,7 @@
   
   .leaflet-legend-item-inactive i img, .leaflet-legend-item-inactive i canvas {
     opacity: 0.3;
-    /*
-    color: #000000;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray;
-    */
+
   }
   
   .leaflet-legend-item i {
@@ -85,11 +76,4 @@
     content: "";
     display: block;
     clear: both;
-  }
-
-  @media all and (min-width: 1024px) {
-    .leaflet-legend  {
-          height: 100%;
-          width: 100%;
-      }
   }
