@@ -149,12 +149,11 @@ input[type=reset]:hover {
     color: #666;
 }
 
-#box{
+.box{
     z-index: 100;
     position: absolute;
-    /* background-image: url(pix2/cornerbr.png); */
-    background-repeat: no-repeat;
-    background-position: top right;
+    width: 150px;
+    height: 150px;
 }
 
 @media all and (min-width: 1024px) {
