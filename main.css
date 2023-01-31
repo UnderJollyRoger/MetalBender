@@ -151,7 +151,7 @@ input[type=reset]:hover {
 
 img {
     position: absolute;
-    left: 0px;
+    left: 52%;
     top: 0px;
     z-index: -1;
 }
