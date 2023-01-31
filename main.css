@@ -149,11 +149,11 @@ input[type=reset]:hover {
     color: #666;
 }
 
-.box{
-    z-index: 1000;
+img {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 @media all and (min-width: 1024px) {
