@@ -163,3 +163,11 @@ input[type=reset]:hover {
         width: 100%;
     }
 } */
+
+#box{
+    z-index: 100;
+    position: absolute;
+    /* background-image: url(pix2/cornerbr.png); */
+    background-repeat: no-repeat;
+    background-position: top right;
+}
