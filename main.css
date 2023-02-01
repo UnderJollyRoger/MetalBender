@@ -19,12 +19,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 501;
+    position: relative;
 }
 
 .header h5 {
     font-style: italic;
     background: white;
     color: black;
+    z-index: 501;
+    position: relative;
 }
 
 .header a span {
