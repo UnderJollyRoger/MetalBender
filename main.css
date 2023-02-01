@@ -159,13 +159,6 @@ input[type=reset]:hover {
     color: #666;
 }
 
-img {
-    position: absolute;
-    left: 52%;
-    top: 0px;
-    z-index: 11;
-}
-
 @media all and (min-width: 1024px) {
     #map {
         height: 768px;
@@ -173,6 +166,12 @@ img {
     }
 }
 
+img {
+    position: absolute;
+    left: 70%;
+    top: 0px;
+    z-index: 500;
+}
 
 /* @media all and (min-width: 1024px) {
     #map {
