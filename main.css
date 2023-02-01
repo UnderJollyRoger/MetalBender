@@ -21,6 +21,12 @@ body {
     align-items: center;
 }
 
+.header h5 {
+    font-style: italic;
+    background: white;
+    color: black;
+}
+
 .header a span {
     margin-left: 4px;
 }
