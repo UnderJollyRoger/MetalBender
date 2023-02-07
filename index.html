@@ -37,13 +37,9 @@
     <!-- Leaflet.Sidepanel -->
     <link rel="stylesheet" href="/dist/leaflet-sidepanel.css" />
     <script src="./dist/leaflet-sidepanel.min.js"></script>
-    <!-- Bookmarks -->
-    <script src="/dist/L.Control.Bookmarks.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="/dist/leaflet.bookmarks.css">
     <!-- Leaflet.Legend -->
     <link rel="stylesheet" href="/dist/leaflet.legend.css" />
     <script src="/dist/leaflet.legend.js"></script>
-
 
     <!-- jQuery code to help with :hover on iOS devices -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
@@ -61,12 +57,12 @@
         //Make older browsers aware of new HTML5 layout tags
         'header nav aside article footer section figure figcaption'.replace(/\w+/g, function (n) { document.createElement(n) })
     </script>
+
     <header class="header">
         <h1 style="display: inline-block">Metal Bender </h1>
         <h5 style="display: inline-block">Hold on to your toupée!</h5>
     </header>
     <img src="images/reaper.png" style="display: inline-block;">
-
     <!-- Map ID -->
     <div id="map">
         <!-- Side Panel right -->
@@ -86,11 +82,6 @@
                         </li>
                         <li class="sidepanel-tab">
                             <a href="#" class="sidebar-tab-link" role="tab" data-tab-link="tab-3">
-                                Bookmarks
-                            </a>
-                        </li>
-                        <li class="sidepanel-tab">
-                            <a href="#" class="sidebar-tab-link" role="tab" data-tab-link="tab-4">
                                 Contact
                             </a>
                         </li>
@@ -136,13 +127,8 @@
                                 </form>
                             </div>
                         </div>
-                        <!-- Bookmarks tab -->
-                        <div class="sidepanel-tab-content" data-tab-content="tab-3">
-                            <h4>Coming soon...</h4>
-                            <p>Nothing to see here.</p>
-                        </div>
                         <!-- Contact tab -->
-                        <div class="sidepanel-tab-content" data-tab-content="tab-4">
+                        <div class="sidepanel-tab-content" data-tab-content="tab-3">
                             <h4>Suggest a location! </h4>
                             <h5>
                                 <font color="grey">Send me info on a place in your neck of the woods!
@@ -211,12 +197,6 @@
             darkMode: true,
             startTab: 'tab-1'
         }).addTo(map);
-
-        // // Bookmarks
-        // var control = new L.Control.Bookmarks().addTo(map);
-        // map.fire('bookmark:new', {
-        //     latlng: new L.LatLng(..., ...)
-        // });5
 
         // load geojson and add custom icons to points
         $.getJSON("points.geojson", function (data) {
