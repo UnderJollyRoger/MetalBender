@@ -28,6 +28,7 @@
     white-space: nowrap;
     background-color: transparent;
     text-align: left;
+    padding: 5px;
   }
   
   .leaflet-legend-item-clickable {
@@ -60,7 +61,7 @@
   
   .leaflet-legend-contents {
     display: none;
-    background-color: #202020;
+    background-color: rgb(49, 49, 49);
   }
   
   .leaflet-legend-expanded .leaflet-legend-contents {
