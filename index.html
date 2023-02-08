@@ -166,7 +166,6 @@
                                     <input type="submit" name="submit" value="Send" />
                                     <input type="reset" name="reset" value="Clear Form" />
                                 </form>
-
                             </div>
                         </div>
                     </div>
@@ -179,9 +178,15 @@
     </div>
     <!-- Scripts -->
     <script>
-        // initialize the map. create OSM basemap
-        var map = L.map('map', { zoomControl: false, minZoom: 2 }).setView([37.52715, -9.877441], 1.5);
+        // initialize the map and set maxbounds
+        var southWest = L.latLng(0, 0),
+            northEast = L.latLng(0, 0),
+            bounds = L.latLngBounds(southWest, northEast);
 
+        var map = L.map('map', { zoomControl: false, minZoom: .2, maxBounds: bounds }).setView([0, 0], .45);
+        map.setMaxBounds(map.getBounds());
+
+        // create OSM basemap
         var osm = new L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
