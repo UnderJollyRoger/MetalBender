@@ -187,7 +187,7 @@
 //             bounds = L.latLngBounds(southWest, northEast);
 
         var map = L.map('map', { zoomControl: false, minZoom: 1.5, maxZoom: 18 }).setView([14, 0], 0);
-//         map.setMaxBounds(map.getBounds());
+        map.setMaxBounds(  [[-90,-180],   [90,180]]  );
 
         // create OSM basemap
         var osm = new L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
