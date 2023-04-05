@@ -194,18 +194,18 @@
             attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
 
-        // If the viewport is less than, or equal to, 700 pixels wide reset view bounds
-        function myFunction(x) {
-            if (x.matches) { // If media query matches
-                map.setView([12,0],0);
-            } else {
-                map;
-            }
-        };
+//         // If the viewport is less than, or equal to, 700 pixels wide reset view bounds
+//         function myFunction(x) {
+//             if (x.matches) { // If media query matches
+//                 map.setView([12,0],0);
+//             } else {
+//                 map;
+//             }
+//         };
 
-        var x = window.matchMedia("(max-width: 700px)")
-        myFunction(x) // Call listener function at run time
-        x.addListener(myFunction); // Attach listener function on state changes
+//         var x = window.matchMedia("(max-width: 700px)")
+//         myFunction(x) // Call listener function at run time
+//         x.addListener(myFunction); // Attach listener function on state changes
 
 
         var zoomHome = L.Control.zoomHome({ position: 'bottomleft' });
