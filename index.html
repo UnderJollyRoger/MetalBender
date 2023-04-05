@@ -181,13 +181,13 @@
     </div>
     <!-- Scripts -->
     <script>
-        // initialize the map and set maxbounds
-        var southWest = L.latLng(0,0),
-            northEast = L.latLng(0,0),
-            bounds = L.latLngBounds(southWest, northEast);
+//         // initialize the map and set maxbounds
+//         var southWest = L.latLng(0,0),
+//             northEast = L.latLng(0,0),
+//             bounds = L.latLngBounds(southWest, northEast);
 
-        var map = L.map('map', { zoomControl: false, minZoom: 1.5, maxZoom: 18 }).setView([14, 0], 0);
-        map.setMaxBounds(map.getBounds());
+//         var map = L.map('map', { zoomControl: false, minZoom: 1.5, maxZoom: 18 }).setView([14, 0], 0);
+//         map.setMaxBounds(map.getBounds());
 
         // create OSM basemap
         var osm = new L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
