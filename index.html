@@ -197,7 +197,7 @@
         // If the viewport is less than, or equal to, 700 pixels wide reset view bounds
         function myFunction(x) {
             if (x.matches) { // If media query matches
-                map.setView([0,0],0);
+                map.setView([2,0],0);
             } else {
                 map;
             }
@@ -306,7 +306,7 @@
                     });
                 }
             });
-            map.fitBounds(metallocations.getBounds());
+//             map.fitBounds(metallocations.getBounds());
 
             var clusters = L.markerClusterGroup({
                 spiderfyOnMaxZoom: true,
