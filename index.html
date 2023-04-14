@@ -220,48 +220,48 @@
                                 iconUrl: 'images/pub.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: pubIcon }).bindPopup(feature.properties.Name + "<br>" +
-                                feature.properties.Address);
+                            return L.marker(latlng, { icon: pubIcon }).bindPopup("<strong>"+feature.properties.Name+'</strong>' + "<br>" +
+                                feature.properties.Address+"<em>"+"<h6>"+"click sidebar info tab for details"+"</h6>"+"</em>");
 
                         case "pubandrestaurant":
                             var pubandrestaurantIcon = new L.icon({
                                 iconUrl: 'images/pubandrestaurant.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: pubandrestaurantIcon }).bindPopup(feature.properties.Name + "<br>" +
-                                feature.properties.Address);
+                            return L.marker(latlng, { icon: pubandrestaurantIcon }).bindPopup("<strong>"+feature.properties.Name+'</strong>' + "<br>" +
+                                feature.properties.Address+"<em>"+"<h6>"+"click sidebar info tab for details"+"</h6>"+"</em>");
 
                         case "pubandvenue":
                             var pubandvenueIcon = new L.icon({
                                 iconUrl: 'images/pubandvenue.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: pubandvenueIcon }).bindPopup(feature.properties.Name + "<br>" +
-                                feature.properties.Address);
+                            return L.marker(latlng, { icon: pubandvenueIcon }).bindPopup("<strong>"+feature.properties.Name+'</strong>' + "<br>" +
+                                feature.properties.Address+"<em>"+"<h6>"+"click sidebar info tab for details"+"</h6>"+"</em>");
 
                         case "restaurant":
                             var restaurantIcon = new L.icon({
                                 iconUrl: 'images/restaurant.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: restaurantIcon }).bindPopup(feature.properties.Name + "<br>" +
-                                feature.properties.Address);
+                            return L.marker(latlng, { icon: restaurantIcon }).bindPopup("<strong>"+feature.properties.Name+'</strong>' + "<br>" +
+                                feature.properties.Address+"<em>"+"<h6>"+"click sidebar info tab for details"+"</h6>"+"</em>");
 
                         case "recordstore":
                             var recordstoreIcon = new L.icon({
                                 iconUrl: 'images/recordstore.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: recordstoreIcon }).bindPopup(feature.properties.Name + "<br>" +
-                                feature.properties.Address);
+                            return L.marker(latlng, { icon: recordstoreIcon }).bindPopup("<strong>"+feature.properties.Name+'</strong>' + "<br>" +
+                                feature.properties.Address+"<em>"+"<h6>"+"click sidebar info tab for details"+"</h6>"+"</em>");
 
                         case "venue":
                             var venueIcon = new L.icon({
                                 iconUrl: 'images/venue.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: venueIcon }).bindPopup(feature.properties.Name + "<br>" +
-                                feature.properties.Address);
+                            return L.marker(latlng, { icon: venueIcon }).bindPopup("<strong>"+feature.properties.Name+'</strong>' + "<br>" +
+                                feature.properties.Address+"<em>"+"<h6>"+"click sidebar info tab for details"+"</h6>"+"</em>");
                     }
                 },
 
