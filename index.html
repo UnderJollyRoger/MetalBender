@@ -212,7 +212,7 @@
                                 iconUrl: 'images/festival.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: festivalIcon }).bindPopup(<strong><h6>feature.properties.Name</h6></strong> + "<br>" +
+                            return L.marker(latlng, { icon: festivalIcon }).bindPopup('<strong>'+feature.properties.Name+'</strong>' + "<br>" +
                                 feature.properties.Address);
 
                         case "pub":
