@@ -212,7 +212,7 @@
                                 iconUrl: 'images/festival.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: festivalIcon }).bindTooltip(feature.properties.Name + "<br>" +
+                            return L.marker(latlng, { icon: festivalIcon }).bindPopup(feature.properties.Name + "<br>" +
                                 feature.properties.Address);
 
                         case "pub":
@@ -220,7 +220,7 @@
                                 iconUrl: 'images/pub.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: pubIcon }).bindTooltip(feature.properties.Name + "<br>" +
+                            return L.marker(latlng, { icon: pubIcon }).bindPopup(feature.properties.Name + "<br>" +
                                 feature.properties.Address);
 
                         case "pubandrestaurant":
@@ -228,7 +228,7 @@
                                 iconUrl: 'images/pubandrestaurant.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: pubandrestaurantIcon }).bindTooltip(feature.properties.Name + "<br>" +
+                            return L.marker(latlng, { icon: pubandrestaurantIcon }).bindPopup(feature.properties.Name + "<br>" +
                                 feature.properties.Address);
 
                         case "pubandvenue":
@@ -236,7 +236,7 @@
                                 iconUrl: 'images/pubandvenue.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: pubandvenueIcon }).bindTooltip(feature.properties.Name + "<br>" +
+                            return L.marker(latlng, { icon: pubandvenueIcon }).bindPopup(feature.properties.Name + "<br>" +
                                 feature.properties.Address);
 
                         case "restaurant":
@@ -244,7 +244,7 @@
                                 iconUrl: 'images/restaurant.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: restaurantIcon }).bindTooltip(feature.properties.Name + "<br>" +
+                            return L.marker(latlng, { icon: restaurantIcon }).bindPopup(feature.properties.Name + "<br>" +
                                 feature.properties.Address);
 
                         case "recordstore":
@@ -252,7 +252,7 @@
                                 iconUrl: 'images/recordstore.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: recordstoreIcon }).bindTooltip(feature.properties.Name + "<br>" +
+                            return L.marker(latlng, { icon: recordstoreIcon }).bindPopup(feature.properties.Name + "<br>" +
                                 feature.properties.Address);
 
                         case "venue":
@@ -260,7 +260,7 @@
                                 iconUrl: 'images/venue.png', //assign PNG
                                 iconSize: [52, 52], // size of the icon
                             });
-                            return L.marker(latlng, { icon: venueIcon }).bindTooltip(feature.properties.Name + "<br>" +
+                            return L.marker(latlng, { icon: venueIcon }).bindPopup(feature.properties.Name + "<br>" +
                                 feature.properties.Address);
                     }
                 },
