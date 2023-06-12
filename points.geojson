@@ -1889,48 +1889,6 @@
         {
             "type": "Feature",
             "properties": {
-                "ID": "50",
-                "Name": "Battle Axe",
-                "Address": "Glatzgasse 4, 1190 Wien",
-                "City": "Vienne",
-                "Country": "Austria",
-                "Website": "https://www.battleaxe.at/",
-                "Type": "pub",
-                "Type_Public": "pub",
-                "Food": "no",
-                "Description": "Metal pub with some cool tables.",
-                "Review": "",
-                "field_12": "",
-                "field_13": "",
-                "field_14": "",
-                "field_15": "",
-                "field_16": "",
-                "field_17": "",
-                "osm_type": "node",
-                "display_name": "4, Glatzgasse, Upper D\u00f6bling, D\u00f6bling, Vienna, 1190, Austria",
-                "place_id": "17207250",
-                "class": "place",
-                "type_2": "house",
-                "road": "Glatzgasse",
-                "village": null,
-                "city_district": "D\u00f6bling",
-                "town": null,
-                "city_2": "Vienna",
-                "state": null,
-                "country_2": "Austria",
-                "postcode": "1190"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16.3539539,
-                    48.2330734
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "ID": "21",
                 "Name": "1000 North Ave, Lombard, IL 60148",
                 "Address": "North Avenue 1000 60148 Lombard",
@@ -14687,42 +14645,6 @@
         {
             "type": "Feature",
             "properties": {
-                "ID": "360",
-                "Name": "Arena Wien",
-                "Address": "Baumgasse 80, 1030 Wien, Austria",
-                "City": "Vienne",
-                "Country": "Austria",
-                "Website": "http://arena.wien/",
-                "Type": "venue",
-                "Type_Public": "venue",
-                "Food": "no",
-                "Description": "Culture complex with indoor and outdoor stages. Check their website for metal shows.",
-                "Review": "",
-                "osm_type": "way",
-                "display_name": "Arena Wien, 80, Baumgasse, Erdberger Mais, KG Landstra\u00dfe, Landstra\u00dfe, Vienna, 1030, Austria",
-                "place_id": "192518686",
-                "class": "amenity",
-                "type_2": "nightclub",
-                "road": "Baumgasse",
-                "village": null,
-                "city_district": "Landstra\u00dfe",
-                "town": null,
-                "city_2": "Vienna",
-                "state": null,
-                "country_2": "Austria",
-                "postcode": "1030"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16.41276100585727,
-                    48.18753725
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "ID": "361",
                 "Name": "Colloseum Club",
                 "Address": "Dominik\u00e1nske n\u00e1mestie 040 86 Ko\u0161ice",
@@ -16517,42 +16439,6 @@
                 "coordinates": [
                     16.41276100585727,
                     48.18753725
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "ID": "74",
-                "Name": "Planet",
-                "Address": "Guglgasse 8 1110 Vienna, Austria",
-                "City": "Wien",
-                "Country": "Austria",
-                "Website": "http://planet.tt/",
-                "Type": "venue",
-                "Type_Public": "venue",
-                "Food": "no",
-                "Description": "Check their website for metal shows.",
-                "Review": "",
-                "osm_type": "node",
-                "display_name": "8, Guglgasse, KG Landstra\u00dfe, Simmering, Vienna, 1110, Austria",
-                "place_id": "79909155",
-                "class": "amenity",
-                "type_2": "bicycle_parking",
-                "road": "Guglgasse",
-                "village": null,
-                "city_district": "Simmering",
-                "town": null,
-                "city_2": "Vienna",
-                "state": null,
-                "country_2": "Austria",
-                "postcode": "1110"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16.4196906,
-                    48.1848234
                 ]
             }
         },
@@ -25223,6 +25109,1050 @@
                 "coordinates": [
                     -96.00858927786048,
                     41.28523285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "659",
+                "Name": "Tolminator",
+                "Address": "Dija\u0161ka ulica 18, 5220 Tolmin, Slovenia",
+                "City": "Tolmin",
+                "Country": "Slovenia",
+                "Website": "https://tolminator.com/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Metaldays, 18, Dija\u0161ka ulica, \u017dab\u010de, Tolmin, 5220, Slovenia",
+                "place_id": "98623185",
+                "class": "amenity",
+                "type_2": "arts_centre",
+                "road": "Dija\u0161ka ulica",
+                "village": "\u017dab\u010de",
+                "city_district": null,
+                "town": "Tolmin",
+                "city_2": null,
+                "state": null,
+                "country_2": "Slovenia",
+                "postcode": "5220"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.737324,
+                    46.1751021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "660",
+                "Name": "Explosiv",
+                "Address": "Bahnhofg\u00fcrtel 55a, 8020 Graz, Austria",
+                "City": "Graz",
+                "Country": "Austria",
+                "Website": "http://www.explosiv.at/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Youth Center and cultural center. They do metal shows pretty often. Check their website. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Explosiv, 55a, Bahnhofg\u00fcrtel, Smart City, Lend, Graz, Styria, 8020, Austria",
+                "place_id": "148154638",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Bahnhofg\u00fcrtel",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Graz",
+                "state": "Styria",
+                "country_2": "Austria",
+                "postcode": "8020"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.417686701179644,
+                    47.07758995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "661",
+                "Name": "Szene Wien",
+                "Address": "Szene Wien, Hauffgasse 26 1110 Vienna",
+                "City": "Vienna",
+                "Country": "Austria",
+                "Website": "http://www.planet.tt/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Szene Wien, 26, Hauffgasse, KG Simmering, Simmering, Vienna, 1110, Austria",
+                "place_id": "360720420",
+                "class": "amenity",
+                "type_2": "music_venue",
+                "road": "Hauffgasse",
+                "village": null,
+                "city_district": "Simmering",
+                "town": null,
+                "city_2": "Vienna",
+                "state": null,
+                "country_2": "Austria",
+                "postcode": "1110"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.40820727210515,
+                    48.17551355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "662",
+                "Name": "P23",
+                "Address": "Porcelanowa 23, 40-246 Katowice, Poland",
+                "City": "Katowice",
+                "Country": "Poland",
+                "Website": "http://fabryka-porcelany.pl/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Old factory restored into a sort of compound that does live shows and other things. Check their website for metal shows.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "23, Porcelanowa, Fabryka Porcelany, Zawodzie, Katowice, G\u00f3rno\u015bl\u0105sko-Zag\u0142\u0119biowska Metropolia, Silesian Voivodeship, 40-246, Poland",
+                "place_id": "153457155",
+                "class": "building",
+                "type_2": "yes",
+                "road": "Porcelanowa",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Katowice",
+                "state": "Silesian Voivodeship",
+                "country_2": "Poland",
+                "postcode": "40-246"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.061949609553636,
+                    50.25440435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "663",
+                "Name": "Proxima",
+                "Address": "\u017bwirki i Wigury 99A, 02-089 Warszawa, Poland",
+                "City": "Warsaw",
+                "Country": "Poland",
+                "Website": "http://klubproxima.com.pl/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Proxima, 99A, \u017bwirki i Wigury, Osiedle Gr\u00f3jecka, Stara Ochota, Ochota, Warsaw, Masovian Voivodeship, 02-089, Warsaw",
+                "place_id": "113039516",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "\u017bwirki i Wigury",
+                "village": null,
+                "city_district": "Ochota",
+                "town": null,
+                "city_2": "Warsaw",
+                "state": "Masovian Voivodeship",
+                "country_2": null,
+                "postcode": "02-089"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.987192700295743,
+                    52.21263155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "664",
+                "Name": "MTC Club",
+                "Address": "Z\u00fclpicher Str. 10, 50674 K\u00f6ln, Germany",
+                "City": "Cologne",
+                "Country": "Germany",
+                "Website": "https://mtc-cologne.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Live music club for Rock, Indie bands. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Kwartier, 10, Z\u00fclpicher Stra\u00dfe, Studentenviertel, Rathenauviertel, Neustadt/S\u00fcd, Innenstadt, Cologne, North Rhine-Westphalia, 50674, Germany",
+                "place_id": "15223772",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Z\u00fclpicher Stra\u00dfe",
+                "village": null,
+                "city_district": "Innenstadt",
+                "town": null,
+                "city_2": "Cologne",
+                "state": "North Rhine-Westphalia",
+                "country_2": "Germany",
+                "postcode": "50674"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9386697,
+                    50.9300595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "665",
+                "Name": "Clwb Ifor Bach",
+                "Address": "11 Womanby St, Cardiff CF10 1BR, United Kingdom",
+                "City": "Cardiff",
+                "Country": "UK",
+                "Website": "http://www.clwb.net/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Live music venue that has been around since 1983. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Clwb Ifor Bach, 11, Womanby Street, Castle Quarter, Castle, Cardiff, Wales, CF10 1BR, United Kingdom",
+                "place_id": "6722468",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Womanby Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Cardiff",
+                "state": "Wales",
+                "country_2": "United Kingdom",
+                "postcode": "CF10 1BR"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1815231,
+                    51.480524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "666",
+                "Name": "The Joiners",
+                "Address": "141 St Mary St, Southampton SO14 1NS, United Kingdom",
+                "City": "Southampton",
+                "Country": "UK",
+                "Website": "http://joinerslive.co.uk/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "The home of independent live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "The Joiners, 141, St Mary Street, Cultural Quarter, St Mary's, Southampton, England, SO14 1NS, United Kingdom",
+                "place_id": "151391766",
+                "class": "amenity",
+                "type_2": "pub",
+                "road": "St Mary Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Southampton",
+                "state": "England",
+                "country_2": "United Kingdom",
+                "postcode": "SO14 1NS"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.396354309552845,
+                    50.9045378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "667",
+                "Name": "Junkyard",
+                "Address": "Schl\u00e4gelstra\u00dfe 57, 44145 Dortmund, Germany",
+                "City": "Dortmund",
+                "Country": "Germany",
+                "Website": "http://junkyard.ruhr/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "57, Schl\u00e4gelstra\u00dfe, Innenstadt Nord, Dortmund, North Rhine-Westphalia, 44145, Germany",
+                "place_id": "119639474",
+                "class": "building",
+                "type_2": "yes",
+                "road": "Schl\u00e4gelstra\u00dfe",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Dortmund",
+                "state": "North Rhine-Westphalia",
+                "country_2": "Germany",
+                "postcode": "44145"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.472923509369449,
+                    51.53304095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "668",
+                "Name": "Hirsch",
+                "Address": "Vogelweiherstra\u00dfe 66, 90441 N\u00fcrnberg, Germany",
+                "City": "N\u00fcrnberg",
+                "Country": "Germany",
+                "Website": "http://www.der-hirsch.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "66, Vogelweiherstra\u00dfe, Gibitzenhof, Nuremberg, Bavaria, 90441, Germany",
+                "place_id": "15522184",
+                "class": "amenity",
+                "type_2": "vending_machine",
+                "road": "Vogelweiherstra\u00dfe",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Nuremberg",
+                "state": "Bavaria",
+                "country_2": "Germany",
+                "postcode": "90441"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0708901,
+                    49.426678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "669",
+                "Name": "IJssportcentrum Eindhoven",
+                "Address": "Antoon Coolenlaan 3, 5644 RX Eindhoven, Netherlands",
+                "City": "Eindoven",
+                "Country": "Netherlands",
+                "Website": "https://ijssportcentrum.nl/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Sportscenter that also does live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "IJssportcentrum Eindhoven, 3, Antoon Coolenlaan, Bennekel-Oost, Gestel, Eindhoven, North Brabant, Netherlands, 5644 RX, Netherlands",
+                "place_id": "26398286",
+                "class": "leisure",
+                "type_2": "ice_rink",
+                "road": "Antoon Coolenlaan",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Eindhoven",
+                "state": "North Brabant",
+                "country_2": "Netherlands",
+                "postcode": "5644 RX"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.4717867,
+                    51.4156716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "670",
+                "Name": "Goldfield Trading Post",
+                "Address": "238 Vernon St, Roseville, CA 95678",
+                "City": "Roseville",
+                "Country": "USA",
+                "Website": "https://goldfieldtradingpost.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "238, Vernon Street, Roseville, Placer County, California, 95678, United States",
+                "place_id": "329004649",
+                "class": "place",
+                "type_2": "house",
+                "road": "Vernon Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Roseville",
+                "state": "California",
+                "country_2": "United States",
+                "postcode": "95678"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.28338010204081,
+                    38.74960144897959
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "671",
+                "Name": "Jake's Sports Cafe & Back Room",
+                "Address": "5025 50th St A, Lubbock, TX 79414",
+                "City": "Lubbock",
+                "Country": "USA",
+                "Website": "http://www.jakes-sportscafe.com/",
+                "Type": "pubandrestaurant",
+                "Type_Public": "pub and restaurant",
+                "Food": "yes",
+                "Description": "They do live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Jake's Cafe, 5025, 50th Street, Lubbock, Lubbock County, Texas, 79414, United States",
+                "place_id": "209729224",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "50th Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Lubbock",
+                "state": "Texas",
+                "country_2": "United States",
+                "postcode": "79414"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.92040408236912,
+                    33.5479471
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "672",
+                "Name": "Montage Music Hall",
+                "Address": "55 Chestnut St, Rochester, NY 14604",
+                "City": "Rochester",
+                "Country": "USA",
+                "Website": "https://www.rocentevents.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "The Montage Music Hall, 55, Chestnut Street, East End, City of Rochester, Monroe County, New York, 14604, United States",
+                "place_id": "283507525",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Chestnut Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "City of Rochester",
+                "state": "New York",
+                "country_2": "United States",
+                "postcode": "14604"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.60252253533722,
+                    43.15600795
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "673",
+                "Name": "The King of Clubs",
+                "Address": "6252 Busch Blvd, Columbus, OH 43229",
+                "City": "Columbus",
+                "Country": "USA",
+                "Website": "https://www.tkoc.live/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Mostly rock-oriented shows. Check their website. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "The King of Clubs, 6252, Busch Boulevard, French Quarter, Columbus, Sharon, Franklin County, Ohio, 43229, United States",
+                "place_id": "123217157",
+                "class": "amenity",
+                "type_2": "events_venue",
+                "road": "Busch Boulevard",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Columbus",
+                "state": "Ohio",
+                "country_2": "United States",
+                "postcode": "43229"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.99221059964094,
+                    40.0936725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "674",
+                "Name": "The Shelter",
+                "Address": "431 E Congress St, Detroit, MI 48226",
+                "City": "Detroit",
+                "Country": "USA",
+                "Website": "https://www.livenation.com/venue/KovZpZA77JtA/the-shelter-events",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Saint Andrew's Hall, 431, East Congress Street, Greektown, Detroit, Wayne County, Michigan, 48226, United States",
+                "place_id": "122395073",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "East Congress Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Detroit",
+                "state": "Michigan",
+                "country_2": "United States",
+                "postcode": "48226"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.04159542749466,
+                    42.33234735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "675",
+                "Name": "Posthof Zeitkultur am Hafen",
+                "Address": "Posthofstra\u00dfe 43, 4020 Linz, Austria",
+                "City": "Linz",
+                "Country": "Austria",
+                "Website": "http://www.posthof.at/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "relation",
+                "display_name": "Posthof, 43, Posthofstra\u00dfe, Kaplanhofviertel, Kaplanhof, Linz, 4020, Austria",
+                "place_id": "298345701",
+                "class": "amenity",
+                "type_2": "arts_centre",
+                "road": "Posthofstra\u00dfe",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Linz",
+                "state": null,
+                "country_2": "Austria",
+                "postcode": "4020"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.311656722324702,
+                    48.31172055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "676",
+                "Name": "Live Music Hall",
+                "Address": "Lichtstra\u00dfe 30, 50825 K\u00f6ln, Germany",
+                "City": "Cologne",
+                "Country": "Germany",
+                "Website": "http://www.livemusichall.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Live Music Hall, 30, Lichtstra\u00dfe, Ehrenfeld, Cologne, North Rhine-Westphalia, 50825, Germany",
+                "place_id": "144569273",
+                "class": "amenity",
+                "type_2": "concert_hall",
+                "road": "Lichtstra\u00dfe",
+                "village": null,
+                "city_district": "Ehrenfeld",
+                "town": null,
+                "city_2": "Cologne",
+                "state": "North Rhine-Westphalia",
+                "country_2": "Germany",
+                "postcode": "50825"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.909475655930093,
+                    50.9493222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "677",
+                "Name": "M.A.U. Club",
+                "Address": "Warnowufer 56, 18057 Rostock, Germany",
+                "City": "Rostock",
+                "Country": "Germany",
+                "Website": "http://www.mauclub.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "56, Warnowufer, Steintor-Vorstadt, Stadtmitte, Ortsbeirat 14 : Stadtmitte, Rostock, Mecklenburg-Vorpommern, 18057, Germany",
+                "place_id": "42690609",
+                "class": "man_made",
+                "type_2": "tower",
+                "road": "Warnowufer",
+                "village": null,
+                "city_district": "Ortsbeirat 14 : Stadtmitte",
+                "town": null,
+                "city_2": "Rostock",
+                "state": "Mecklenburg-Vorpommern",
+                "country_2": "Germany",
+                "postcode": "18057"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.1177154,
+                    54.0936085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "678",
+                "Name": " L\u00f6wensaal",
+                "Address": "Schmausenbuckstra\u00dfe 166, 90480 N\u00fcrnberg, Germany",
+                "City": "N\u00fcrnberg",
+                "Country": "Germany",
+                "Website": "https://www.loewensaal.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Schmausenbuckstra\u00dfe, M\u00f6geldorf, Nuremberg, Bavaria, 90480, Germany",
+                "place_id": "117972662",
+                "class": "highway",
+                "type_2": "tertiary",
+                "road": "Schmausenbuckstra\u00dfe",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Nuremberg",
+                "state": "Bavaria",
+                "country_2": "Germany",
+                "postcode": "90480"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1323918,
+                    49.4585777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "679",
+                "Name": "Zollhausverein Leer e.V.",
+                "Address": "Bahnhofsring 4, 26789 Leer, Germany",
+                "City": "Leer",
+                "Country": "Germany",
+                "Website": "http://www.zollhaus-leer.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Zollhaus Kulturzentrum, 4, Bahnhofsring, Leer, Landkreis Leer, Lower Saxony, 26789, Germany",
+                "place_id": "19775010",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Bahnhofsring",
+                "village": null,
+                "city_district": null,
+                "town": "Leer",
+                "city_2": null,
+                "state": "Lower Saxony",
+                "country_2": "Germany",
+                "postcode": "26789"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4638261,
+                    53.2307912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "680",
+                "Name": "Kulturzentrum Schlachthof Wiesbaden",
+                "Address": "Murnaustra\u00dfe 1, 65189 Wiesbaden, Germany",
+                "City": "Wiesbaden",
+                "Country": "Germany",
+                "Website": "http://schlachthof-wiesbaden.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Kulturzentrum Schlachthof Wiesbaden e. V., 1, Murnaustra\u00dfe, S\u00fcdost, Wiesbaden, Hesse, 65189, Germany",
+                "place_id": "160040781",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Murnaustra\u00dfe",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Wiesbaden",
+                "state": "Hesse",
+                "country_2": "Germany",
+                "postcode": "65189"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.247628652813571,
+                    50.06648475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "681",
+                "Name": "Soziokulturelles Zentrum Sudhaus",
+                "Address": "Hechinger Str. 203, 72072 T\u00fcbingen, Germany",
+                "City": "T\u00fcbingen",
+                "Country": "Germany",
+                "Website": "http://www.sudhaus-tuebingen.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Soziokulturelles Zentrum Sudhaus, 203, Hechinger Stra\u00dfe, Hintere Halde, Gartenstadt, Derendingen, T\u00fcbingen, Landkreis T\u00fcbingen, Baden-W\u00fcrttemberg, 72072, Germany",
+                "place_id": "766518",
+                "class": "amenity",
+                "type_2": "arts_centre",
+                "road": "Hechinger Stra\u00dfe",
+                "village": null,
+                "city_district": null,
+                "town": "T\u00fcbingen",
+                "city_2": null,
+                "state": "Baden-W\u00fcrttemberg",
+                "country_2": "Germany",
+                "postcode": "72072"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.064091,
+                    48.499566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "682",
+                "Name": "Substage",
+                "Address": "Alter Schlachthof 19, 76131 Karlsruhe, Germany",
+                "City": "Karlsruhe",
+                "Country": "Germany",
+                "Website": "http://www.substage.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Substage Caf\u00e9, 19, Alter Schlachthof, Oststadt S\u00fcdlicher Teil, Oststadt, Karlsruhe, Baden-W\u00fcrttemberg, 76131, Germany",
+                "place_id": "235448342",
+                "class": "amenity",
+                "type_2": "cafe",
+                "road": "Alter Schlachthof",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Karlsruhe",
+                "state": "Baden-W\u00fcrttemberg",
+                "country_2": "Germany",
+                "postcode": "76131"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.429714394565217,
+                    49.00528235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "683",
+                "Name": "Baroeg",
+                "Address": "Spinozaweg 300, 3076 ET Rotterdam, Netherlands",
+                "City": "Rotterdam",
+                "Country": "Netherlands",
+                "Website": "http://www.baroeg.nl/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "300, Spinozaweg, Moli\u00e8rebuurt, Lombardijen, IJsselmonde, Rotterdam, South Holland, Netherlands, 3076 ET, Netherlands",
+                "place_id": "28884306",
+                "class": "place",
+                "type_2": "house",
+                "road": "Spinozaweg",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Rotterdam",
+                "state": "South Holland",
+                "country_2": "Netherlands",
+                "postcode": "3076 ET"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.5190729,
+                    51.8767419
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "684",
+                "Name": "Conne Island",
+                "Address": "Koburger Str. 3, 04277 Leipzig, Germany",
+                "City": "Leipzig",
+                "Country": "Germany",
+                "Website": "https://www.conne-island.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "More of a punk/skate hangout/cafe. Check their website. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Infoladen, 3, Koburger Stra\u00dfe, Connewitz, S\u00fcd, Leipzig, Saxony, 04277, Germany",
+                "place_id": "81255708",
+                "class": "amenity",
+                "type_2": "library",
+                "road": "Koburger Stra\u00dfe",
+                "village": null,
+                "city_district": "S\u00fcd",
+                "town": null,
+                "city_2": "Leipzig",
+                "state": "Saxony",
+                "country_2": "Germany",
+                "postcode": "04277"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.374547,
+                    51.3023003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "685",
+                "Name": "Flying Circus",
+                "Address": "Pia\u021ba Unirii 21, Cluj-Napoca 400113, Romania",
+                "City": "Cluj-Napoca",
+                "Country": "Romania",
+                "Website": "https://www.facebook.com/flyingcircuscluj/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "More of a club. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "21, Pia\u021ba Unirii, Center, Cluj-Napoca, Cluj Metropolitan Area, Cluj, 400113, Romania",
+                "place_id": "37979515",
+                "class": "place",
+                "type_2": "house",
+                "road": "Pia\u021ba Unirii",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Cluj-Napoca",
+                "state": null,
+                "country_2": "Romania",
+                "postcode": "400113"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.5888805,
+                    46.7705599
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "686",
+                "Name": "Club Expirat",
+                "Address": "Strada Doctor Constantin Istrati 1, Bucure\u0219ti 040542, Romania",
+                "City": "Bucharest",
+                "Country": "Romania",
+                "Website": "http://www.expirat.org/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Expirat, 1, Strada Doctor Constantin Istrati, Uranus, Sector 5, Bucharest, 040542, Romania",
+                "place_id": "368144889",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Strada Doctor Constantin Istrati",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Bucharest",
+                "state": null,
+                "country_2": "Romania",
+                "postcode": "040542"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.0931311,
+                    44.4154632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "687",
+                "Name": "Grindhouse Skateclub Club",
+                "Address": "\u0426\u0430\u0440\u0438\u0433\u0440\u0430\u0434\u0441\u043a\u043e \u0448\u043e\u0441\u0435 73, 1113 \u0421\u043e\u0444\u0438\u044f",
+                "City": "Sofia",
+                "Country": "Bulgaria",
+                "Website": "https://www.facebook.com/grindhousesofia",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Probably more punk than anything. Live music venue with a mini ramp for skating. Coffee and drinks in outdoor garden. Check their website!",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Soap Factory Ltd., 73\u0411, Tsarigradsko Shose blvd., \u0436.\u043a. \u0413\u0435\u043e \u041c\u0438\u043b\u0435\u0432, Slatina, Sofia, Sofia City, Sofia-City, 1113, Bulgaria",
+                "place_id": "99425752",
+                "class": "office",
+                "type_2": "company",
+                "road": "Tsarigradsko Shose blvd.",
+                "village": null,
+                "city_district": "Slatina",
+                "town": null,
+                "city_2": "Sofia",
+                "state": null,
+                "country_2": "Bulgaria",
+                "postcode": "1113"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.35408,
+                    42.6795499
                 ]
             }
         }
