@@ -27331,6 +27331,1194 @@
                     47.06517565
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "688",
+                "Name": "Graspop Metal Meeting",
+                "Address": "Zandbergen, 2480 Dessel, Belgium",
+                "City": "Dessel",
+                "Country": "Belgium",
+                "Website": "http://www.graspop.be/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "yes",
+                "Description": "Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Zandbergen, Bedrijvenzone Stenehei, Dessel, Turnhout, Antwerp, 2480, Belgium",
+                "place_id": "131865373",
+                "class": "highway",
+                "type_2": "unclassified",
+                "road": "Zandbergen",
+                "village": null,
+                "city_district": null,
+                "town": "Dessel",
+                "city_2": null,
+                "state": "Antwerp",
+                "country_2": "Belgium",
+                "postcode": "2480"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.077373,
+                    51.230903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "689",
+                "Name": "Dong Open Air",
+                "Address": "Halde Norddeutschland, 47506 Neukirchen-Vluyn",
+                "City": "Neukirchen-Vluyn",
+                "Country": "Germany",
+                "Website": "https://www.dongopenair.de/de/home",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "yes",
+                "Description": "Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Halde Norddeutschland, Neukirchen-Vluyn, Kreis Wesel, North Rhine-Westphalia, 47506, Germany",
+                "place_id": "69856316",
+                "class": "natural",
+                "type_2": "peak",
+                "road": null,
+                "village": null,
+                "city_district": null,
+                "town": "Neukirchen-Vluyn",
+                "city_2": null,
+                "state": "North Rhine-Westphalia",
+                "country_2": "Germany",
+                "postcode": "47506"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.5673564,
+                    51.4697322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "690",
+                "Name": "Dark River Festival",
+                "Address": "Honkalantie 30, 48720 Kotka, Finland",
+                "City": "Kotka",
+                "Country": "Finland",
+                "Website": "https://darkriverfestival.com/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "yes",
+                "Description": "Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Honkalantie, Veikkola, Kymi, Parikka, Kotka, Kotka-Hamina sub-region, Kymenlaakso, Southern Finland, Mainland Finland, 48720, Finland",
+                "place_id": "267921208",
+                "class": "highway",
+                "type_2": "residential",
+                "road": "Honkalantie",
+                "village": "Parikka",
+                "city_district": null,
+                "town": null,
+                "city_2": "Kotka",
+                "state": null,
+                "country_2": "Finland",
+                "postcode": "48720"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.8865306,
+                    60.5386736
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "691",
+                "Name": "Dorock XL Venue",
+                "Address": "Dorock XL Venue, \u0130stiklal Caddesi 12/1, 34435 Beyo\u011flu",
+                "City": "Istanbul",
+                "Country": "Turkey",
+                "Website": "https://www.instagram.com/dorockxlvenue/?hl=en",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Dorock XL Venue, 12/1, Independence Avenue, Kulo\u011flu, Kulo\u011flu Mahallesi, Beyo\u011flu, Istanbul, Marmara Region, 34435, Turkey",
+                "place_id": "368642726",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "Independence Avenue",
+                "village": null,
+                "city_district": "Kulo\u011flu Mahallesi",
+                "town": "Beyo\u011flu",
+                "city_2": null,
+                "state": null,
+                "country_2": "Turkey",
+                "postcode": "34435"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.982929,
+                    41.0358546
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "692",
+                "Name": "Dorock Heavy Metal Club",
+                "Address": "Kameriye Soka\u011f\u0131 11/A, 34435 Beyo\u011flu, Istanbul",
+                "City": "Istanbul",
+                "Country": "Turkey",
+                "Website": "https://instagram.com/dorockheavymetal",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Dorock Heavy Metal Club, 11/A, Kameriye Soka\u011f\u0131, H\u00fcseyina\u011fa, H\u00fcseyina\u011fa Mahallesi, Beyo\u011flu, Istanbul, Marmara Region, 34435, Turkey",
+                "place_id": "368642916",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Kameriye Soka\u011f\u0131",
+                "village": null,
+                "city_district": "H\u00fcseyina\u011fa Mahallesi",
+                "town": "Beyo\u011flu",
+                "city_2": null,
+                "state": null,
+                "country_2": "Turkey",
+                "postcode": "34435"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.9774348,
+                    41.0349494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "693",
+                "Name": "Kaiowas Motorcycle Club",
+                "Address": "R. \u00c2ngelo C\u00e2ndido, 742, Leme, 13614-290, Brazil",
+                "City": "Leme",
+                "Country": "Brazil",
+                "Website": "http://www.kaiowasmotoclube.com.br/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Not sure how often they have live music. Krisiun is scheduled to play here at time of writing. Check their website. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Kaiowas Motorcycle Club, 742, Rua \u00c2ngelo C\u00e2ndido, Leme, Regi\u00e3o Imediata de Araras, Regi\u00e3o Metropolitana de Piracicaba, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Campinas, S\u00e3o Paulo, Southeast Region, 13614-290, Brazil",
+                "place_id": "368731400",
+                "class": "club",
+                "type_2": "music",
+                "road": "Rua \u00c2ngelo C\u00e2ndido",
+                "village": null,
+                "city_district": "Leme",
+                "town": null,
+                "city_2": "Leme",
+                "state": "S\u00e3o Paulo",
+                "country_2": "Brazil",
+                "postcode": "13614-290"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -47.39761201684868,
+                    -22.1706134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "694",
+                "Name": "Balada Rock",
+                "Address": "Av. Dois C\u00f3rregos, 1650, Piracicaba, 13423-100, Brazil",
+                "City": "Piracicaba",
+                "Country": "Brazil",
+                "Website": "http://www.baladarock.com.br/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "As their tagline says: \"DNA 100% Rock 'n' Roll\". Check their website for metal shows.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Balada Rock, 1650, Avenida Dois C\u00f3rregos, Dois C\u00f3rregos, Piracicaba, Regi\u00e3o Imediata de Piracicaba, Regi\u00e3o Metropolitana de Piracicaba, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Campinas, S\u00e3o Paulo, Southeast Region, 13423-100, Brazil",
+                "place_id": "368731978",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Avenida Dois C\u00f3rregos",
+                "village": null,
+                "city_district": "Piracicaba",
+                "town": null,
+                "city_2": "Piracicaba",
+                "state": "S\u00e3o Paulo",
+                "country_2": "Brazil",
+                "postcode": "13423-100"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -47.6159522127407,
+                    -22.74282375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "695",
+                "Name": "C\u00e9lula Showcase",
+                "Address": "Rodovia Jo\u00e3o Paulo, 75, Florian\u00f3polis, 88030-000, Brazil",
+                "City": "Florian\u00f3polis",
+                "Country": "Brazil",
+                "Website": "https://instagram.com/celulashowcase?igshid=YmMyMTA2M2Y=",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Rodovia Jo\u00e3o Paulo, Jo\u00e3o Paulo, Florian\u00f3polis, Regi\u00e3o Geogr\u00e1fica Imediata de Florian\u00f3polis, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Florian\u00f3polis, Santa Catarina, South Region, 88030-000, Brazil",
+                "place_id": "123052756",
+                "class": "highway",
+                "type_2": "secondary",
+                "road": "Rodovia Jo\u00e3o Paulo",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Florian\u00f3polis",
+                "state": "Santa Catarina",
+                "country_2": "Brazil",
+                "postcode": "88030-000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -48.5130712,
+                    -27.5715854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "696",
+                "Name": "Arena Club",
+                "Address": "Avenida Senador Pinheiro Machado 33, 11075-001 Santos, Brazil",
+                "City": "Santos",
+                "Country": "Brazil",
+                "Website": "https://arena-club-santos.negocio.site/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Arena Club, 33, Avenida Senador Pinheiro Machado, Vila Mathias, Santos, Regi\u00e3o Imediata de Santos, Regi\u00e3o Metropolitana da Baixada Santista, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de S\u00e3o Paulo, S\u00e3o Paulo, Southeast Region, 11075-001, Brazil",
+                "place_id": "368732724",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "Avenida Senador Pinheiro Machado",
+                "village": null,
+                "city_district": "Santos",
+                "town": null,
+                "city_2": "Santos",
+                "state": "S\u00e3o Paulo",
+                "country_2": "Brazil",
+                "postcode": "11075-001"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.331413,
+                    -23.9443671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "697",
+                "Name": "Pepsi On Stage",
+                "Address": "Avenida Severo Dullius 1995, 90200-971 Porto Alegre, Brazil",
+                "City": "Porto Alegre",
+                "Country": "Brazil",
+                "Website": "http://www.pepsionstage.com.br/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Pepsi on Stage, 1995, Avenida Severo Dullius, Porto Alegre, Regi\u00e3o Geogr\u00e1fica Imediata de Porto Alegre, Metropolitan Region of Porto Alegre, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Porto Alegre, Rio Grande do Sul, South Region, 90200-971, Brazil",
+                "place_id": "122908779",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Avenida Severo Dullius",
+                "village": null,
+                "city_district": "Porto Alegre",
+                "town": null,
+                "city_2": "Porto Alegre",
+                "state": "Rio Grande do Sul",
+                "country_2": "Brazil",
+                "postcode": "90200-971"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.17685163662513,
+                    -29.98773635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "698",
+                "Name": "Casa Rio",
+                "Address": "Av. Manoel Jos\u00e9 de Arruda, 3 - Porto, Cuiab\u00e1 - MT, 78158-720, Brazil",
+                "City": "Cuiab\u00e1",
+                "Country": "Brazil",
+                "Website": "https://m.facebook.com/ESPACOCASARIO/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Casa Rio, 3, Avenida Manoel Jos\u00e9 de Arruda, Porto, Cuiab\u00e1, Regi\u00e3o Geogr\u00e1fica Imediata de Cuiab\u00e1, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Cuiab\u00e1, Mato Grosso, Central-West Region, 78158-720, Brazil",
+                "place_id": "368733282",
+                "class": "amenity",
+                "type_2": "events_venue",
+                "road": "Avenida Manoel Jos\u00e9 de Arruda",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Cuiab\u00e1",
+                "state": "Mato Grosso",
+                "country_2": "Brazil",
+                "postcode": "78158-720"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -56.11594356324416,
+                    -15.62144765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "699",
+                "Name": "De Cacao Fabriek",
+                "Address": "Cacaokade 1, 5705 LA Helmond, Netherlands",
+                "City": "Helmond",
+                "Country": "Netherlands",
+                "Website": "http://www.cacaofabriek.nl/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Brasserie Cacaofabriek, 1, Cacaokade, Suytkade, Binnenstad, Helmond, North Brabant, Netherlands, 5705 LA, Netherlands",
+                "place_id": "53381967",
+                "class": "amenity",
+                "type_2": "restaurant",
+                "road": "Cacaokade",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Helmond",
+                "state": "North Brabant",
+                "country_2": "Netherlands",
+                "postcode": "5705 LA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.6553468,
+                    51.4733913
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "700",
+                "Name": "Willemeen",
+                "Address": "Willemsplein 1, 6811 KA Arnhem, Netherlands",
+                "City": "Arnhem",
+                "Country": "Netherlands",
+                "Website": "https://willemeen.nl/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "1, Willemsplein, Rijnstraat, Arnhem, Gelderland, Netherlands, 6811 KA, Netherlands",
+                "place_id": "25798680",
+                "class": "place",
+                "type_2": "house",
+                "road": "Willemsplein",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Arnhem",
+                "state": "Gelderland",
+                "country_2": "Netherlands",
+                "postcode": "6811 KA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.9053781,
+                    51.9842948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "701",
+                "Name": "Le Grillen",
+                "Address": "19 Rue des Jardins, 68000 Colmar, France",
+                "City": "Colmar",
+                "Country": "France",
+                "Website": "https://www.grillen.fr/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Le Grillen, 19, Rue des Jardins, Colmar, Colmar-Ribeauvill\u00e9, Haut-Rhin, Grand Est, Metropolitan France, 68000, France",
+                "place_id": "94906002",
+                "class": "amenity",
+                "type_2": "concert_hall",
+                "road": "Rue des Jardins",
+                "village": null,
+                "city_district": null,
+                "town": "Colmar",
+                "city_2": null,
+                "state": "Grand Est",
+                "country_2": "France",
+                "postcode": "68000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.371031,
+                    48.0756727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "702",
+                "Name": "Backstage O' Sullivans",
+                "Address": "92 Bis Bd de Clichy, 75018 Paris, France",
+                "City": "Paris",
+                "Country": "France",
+                "Website": "https://backstage.osullivans-pubs.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Boulevard de Clichy, 18th Arrondissement, Paris, Quartier des Grandes-Carri\u00e8res, Paris, Ile-de-France, Metropolitan France, 75018, France",
+                "place_id": "139264589",
+                "class": "highway",
+                "type_2": "primary",
+                "road": "Boulevard de Clichy",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Paris",
+                "state": "Ile-de-France",
+                "country_2": "France",
+                "postcode": "75018"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3350628,
+                    48.8831949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "703",
+                "Name": "L\u2019Usine \u00e0 Musique",
+                "Address": "Rue Louis Bonin, 31200 Toulouse, France",
+                "City": "Toulouse",
+                "Country": "France",
+                "Website": "https://www.lusineamusique.fr/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Rue Louis Bonin, Sept Deniers - Ginestous, Toulouse Nord, Toulouse, Haute-Garonne, Occitania, Metropolitan France, 31200, France",
+                "place_id": "117540268",
+                "class": "highway",
+                "type_2": "tertiary",
+                "road": "Rue Louis Bonin",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Toulouse",
+                "state": "Occitania",
+                "country_2": "France",
+                "postcode": "31200"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.4137638,
+                    43.6310003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "704",
+                "Name": "Copernico Live",
+                "Address": "C. de Fern\u00e1ndez de los R\u00edos, 67, 28015 Madrid, Spain",
+                "City": "Madrid",
+                "Country": "Spain",
+                "Website": "https://conciertoscopernico.com/conciertos/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "67, Calle de Fern\u00e1ndez de los R\u00edos, Gaztambide, Chamber\u00ed, Madrid, Community of Madrid, 28015, Spain",
+                "place_id": "41130693",
+                "class": "place",
+                "type_2": "house",
+                "road": "Calle de Fern\u00e1ndez de los R\u00edos",
+                "village": null,
+                "city_district": "Chamber\u00ed",
+                "town": null,
+                "city_2": "Madrid",
+                "state": "Community of Madrid",
+                "country_2": "Spain",
+                "postcode": "28015"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7136635,
+                    40.4352712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "705",
+                "Name": "Le Chihuahua Dodu ",
+                "Address": "22 Rue Jobin, 13003, Marseille, France",
+                "City": "Marseille",
+                "Country": "France",
+                "Website": "",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "22, Rue Jobin, La Belle de Mai, 3rd Arrondissement, Marseille, Bouches-du-Rh\u00f4ne, Provence-Alpes-C\u00f4te d'Azur, Metropolitan France, 13003, France",
+                "place_id": "18710630",
+                "class": "place",
+                "type_2": "house",
+                "road": "Rue Jobin",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Marseille",
+                "state": "Provence-Alpes-C\u00f4te d'Azur",
+                "country_2": "France",
+                "postcode": "13003"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.3892437,
+                    43.310482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "706",
+                "Name": "Sunset Bar",
+                "Address": "Rue du L\u00e9man 15, 1920 Martigny, Switzerland",
+                "City": "Martigny",
+                "Country": "Switzerland",
+                "Website": "http://www.sunsetbar.info/",
+                "Type": "pubandvenue",
+                "Type_Public": "puba and venue",
+                "Food": "no",
+                "Description": "Rocking since 1998. Check their website. Looks like they have some good shows pretty frequently. Metal, Rock, Punk, etc...",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "15, Rue du L\u00e9man, Martigny, Wallis, 1920, Switzerland",
+                "place_id": "95333064",
+                "class": "place",
+                "type_2": "house",
+                "road": "Rue du L\u00e9man",
+                "village": null,
+                "city_district": null,
+                "town": "Martigny",
+                "city_2": null,
+                "state": "Wallis",
+                "country_2": "Switzerland",
+                "postcode": "1920"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0762074,
+                    46.104536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "707",
+                "Name": "Randal Club",
+                "Address": "Karpatsk\u00e1 3089/2, 811 05 Star\u00e9 Mesto, Slovakia",
+                "City": "Bratislava",
+                "Country": "Slovakia",
+                "Website": "http://www.randalclub.eu/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Live and wild rock 'n' roll music club. Check their website for metal shows.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Karpatsk\u00e1, Desiatky, Oblas\u0165 \u017dilinsk\u00e1, Old Town, District of Bratislava I, Bratislava, Region of Bratislava, 811 05, Slovakia",
+                "place_id": "342169492",
+                "class": "highway",
+                "type_2": "tertiary",
+                "road": "Karpatsk\u00e1",
+                "village": null,
+                "city_district": "District of Bratislava I",
+                "town": "Old Town",
+                "city_2": "Bratislava",
+                "state": "Region of Bratislava",
+                "country_2": "Slovakia",
+                "postcode": "811 05"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1133768,
+                    48.1566671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "708",
+                "Name": "District  28",
+                "Address": "Fabrikstrasse 28, 8854 Wangen, Switzerland",
+                "City": "Wangen",
+                "Country": "Switzerland",
+                "Website": "http://www.district28.ch/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Rock-oriented pub that does live music. You will hear everything from Blues, Rock, Hardrock, Heavy-Metal, Punk and Death Metal. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "District 28, 28, Fabrikstrasse, Wangen (SZ), March, Schwyz, 8854, Switzerland",
+                "place_id": "369228511",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Fabrikstrasse",
+                "village": "Wangen (SZ)",
+                "city_district": null,
+                "town": null,
+                "city_2": null,
+                "state": "Schwyz",
+                "country_2": "Switzerland",
+                "postcode": "8854"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8925352,
+                    47.1789294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "709",
+                "Name": "Klub 2progi",
+                "Address": "Al. Niepodleg\u0142o\u015bci 36, 61-714 Pozna\u0144, Poland",
+                "City": "Pozna\u0144",
+                "Country": "Poland",
+                "Website": "https://www.facebook.com/2progi",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Student Depot Pozna\u0144, 36, Aleja Niepodleg\u0142o\u015bci, Przepadek, Stare Miasto, Pozna\u0144, Greater Poland Voivodeship, 61-714, Poland",
+                "place_id": "129365046",
+                "class": "building",
+                "type_2": "dormitory",
+                "road": "Aleja Niepodleg\u0142o\u015bci",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Pozna\u0144",
+                "state": "Greater Poland Voivodeship",
+                "country_2": "Poland",
+                "postcode": "61-714"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.926826865056526,
+                    52.41491465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "710",
+                "Name": "Kamienna 12",
+                "Address": "Kamienna 12, 31-403 Krak\u00f3w, Poland",
+                "City": "Krak\u00f3w",
+                "Country": "Poland",
+                "Website": "https://www.facebook.com/kamienna12/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Club atmosphere. But they also do live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Kamienna 12, 12, Kamienna, Krowodrza, Krakow, Lesser Poland Voivodeship, 31-403, Poland",
+                "place_id": "163714147",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Kamienna",
+                "village": null,
+                "city_district": "Krowodrza",
+                "town": null,
+                "city_2": "Krakow",
+                "state": "Lesser Poland Voivodeship",
+                "country_2": "Poland",
+                "postcode": "31-403"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.94398983472427,
+                    50.07788935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "711",
+                "Name": "Rockharz Festival",
+                "Address": "Asmusstedt 13, 06493 Ballenstedt, Germany",
+                "City": "Ballenstedt",
+                "Country": "Germany",
+                "Website": "https://www.rockharz-festival.com/en",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "13, Asmusstedt, Ballenstedt, Landkreis Harz, Saxony-Anhalt, 06493, Germany",
+                "place_id": "71406979",
+                "class": "place",
+                "type_2": "house",
+                "road": "Asmusstedt",
+                "village": null,
+                "city_district": null,
+                "town": "Ballenstedt",
+                "city_2": null,
+                "state": "Saxony-Anhalt",
+                "country_2": "Germany",
+                "postcode": "06493"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.2342983,
+                    51.743139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "712",
+                "Name": "Midalidare Rock Festival",
+                "Address": "8239 Mogilovo, Bulgaria",
+                "City": "Mogilovo",
+                "Country": "Bulgaria",
+                "Website": "http://midalidarerock.bg/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "relation",
+                "display_name": "Mogilovo, Chirpan, Stara Zagora, Bulgaria",
+                "place_id": "298262412",
+                "class": "boundary",
+                "type_2": "administrative",
+                "road": null,
+                "village": "Mogilovo",
+                "city_district": null,
+                "town": null,
+                "city_2": null,
+                "state": null,
+                "country_2": "Bulgaria",
+                "postcode": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.3971856,
+                    42.3406875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "713",
+                "Name": "N\u00e6stved Metalfest 2023",
+                "Address": "Gr\u00f8nnegade 10, 4700 N\u00e6stved, Denmark",
+                "City": "N\u00e6stved",
+                "Country": "Denmark",
+                "Website": "https://www.naestvedmetalfest.dk/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "10, Gr\u00f8nnegade, Lille N\u00e6stved, N\u00e6stved, Naestved Municipality, Region Zealand, 4700, Denmark",
+                "place_id": "8140251",
+                "class": "place",
+                "type_2": "house",
+                "road": "Gr\u00f8nnegade",
+                "village": null,
+                "city_district": null,
+                "town": "N\u00e6stved",
+                "city_2": null,
+                "state": "Region Zealand",
+                "country_2": "Denmark",
+                "postcode": "4700"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.761014,
+                    55.231978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "714",
+                "Name": "Headbangers Boat",
+                "Address": "1015 N America Way, Miami, FL 33132",
+                "City": "Miami",
+                "Country": "USA",
+                "Website": "https://www.headbangersboat.com/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Goes from Miami to Nassau, Bahamas. Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "1015, North America Way, Port of Miami, Miami, Miami-Dade County, Florida, 33132, United States",
+                "place_id": "65489923",
+                "class": "place",
+                "type_2": "house",
+                "road": "North America Way",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Miami",
+                "state": "Florida",
+                "country_2": "United States",
+                "postcode": "33132"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.1779964,
+                    25.778567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "715",
+                "Name": "Stage AE",
+                "Address": "400 N Shore Dr, Pittsburgh, PA 15212",
+                "City": "Pittsburgh",
+                "Country": "USA",
+                "Website": "http://www.stageae.com",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "North Shore Drive, North Shore, Pittsburgh, Allegheny County, Pennsylvania, 15222, United States",
+                "place_id": "199221699",
+                "class": "highway",
+                "type_2": "secondary",
+                "road": "North Shore Drive",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Pittsburgh",
+                "state": "Pennsylvania",
+                "country_2": "United States",
+                "postcode": "15222"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.008595,
+                    40.4464115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "716",
+                "Name": "Kulttempel",
+                "Address": "M\u00fclheimer Str. 24, 46049 Oberhausen, Germany",
+                "City": "Oberhausen",
+                "Country": "Germany",
+                "Website": "https://www.kulttempel.com",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Kulttempel Oberhausen, 24, M\u00fclheimer Stra\u00dfe, Neue Mitte, Alt-Oberhausen, Oberhausen, North Rhine-Westphalia, 46049, Germany",
+                "place_id": "113793467",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "M\u00fclheimer Stra\u00dfe",
+                "village": null,
+                "city_district": "Alt-Oberhausen",
+                "town": null,
+                "city_2": "Oberhausen",
+                "state": "North Rhine-Westphalia",
+                "country_2": "Germany",
+                "postcode": "46049"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.864821104202729,
+                    51.4827612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "717",
+                "Name": "Doornroosje",
+                "Address": "Stationsplein 11, 6512 AB Nijmegen, Netherlands",
+                "City": "Nijmegen",
+                "Country": "Netherlands",
+                "Website": "http://www.doornroosje.nl/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Doornroosje, 11, Stationsplein, Stadscentrum, Nijmegen-Centrum, Nijmegen, Gelderland, Netherlands, 6512 AB, Netherlands",
+                "place_id": "41195731",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Stationsplein",
+                "village": null,
+                "city_district": "Nijmegen",
+                "town": null,
+                "city_2": "Nijmegen",
+                "state": "Gelderland",
+                "country_2": "Netherlands",
+                "postcode": "6512 AB"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.8539059,
+                    51.8442417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "718",
+                "Name": "Lucky's Luke",
+                "Address": "Luxemburger Str. 6, 54294 Trier, Germany",
+                "City": "Trier",
+                "Country": "Germany",
+                "Website": "http://www.luke.de/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Alternative music-oriented pub. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Lucky's Luke, 6, Luxemburger Stra\u00dfe, West, West-Pallien, Trier, Rhineland-Palatinate, 54294, Germany",
+                "place_id": "505259",
+                "class": "amenity",
+                "type_2": "pub",
+                "road": "Luxemburger Stra\u00dfe",
+                "village": null,
+                "city_district": "West-Pallien",
+                "town": null,
+                "city_2": "Trier",
+                "state": "Rhineland-Palatinate",
+                "country_2": "Germany",
+                "postcode": "54294"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.624288,
+                    49.7516494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "719",
+                "Name": "La Guerre Du Son",
+                "Address": "50 Grande Rue, 25530 Landresse, France",
+                "City": "Landresse",
+                "Country": "France",
+                "Website": "https://laguerreduson.fr/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Mostly punk I would say? Check their website for dates, information and exact location!",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "50, Grande Rue, LANDRESSE, Landresse, Pontarlier, Doubs, Bourgogne-Franche-Comt\u00e9, Metropolitan France, 25530, France",
+                "place_id": "63695615",
+                "class": "place",
+                "type_2": "house",
+                "road": "Grande Rue",
+                "village": "Landresse",
+                "city_district": null,
+                "town": null,
+                "city_2": null,
+                "state": "Bourgogne-Franche-Comt\u00e9",
+                "country_2": "France",
+                "postcode": "25530"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.464129,
+                    47.255882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "720",
+                "Name": "Musikzentrum Sedel",
+                "Address": "Musikzentrum Sedel, 2, Sedel, Ebikon, Lucerne, 6020, Switzerland",
+                "City": "Luzern",
+                "Country": "Switzerland",
+                "Website": "http://www.sedel.ch/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Does more indie and rock. In a former prison. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Musikzentrum Sedel, 2, Sedel, Ebikon, Lucerne, 6020, Switzerland",
+                "place_id": "358009174",
+                "class": "amenity",
+                "type_2": "music_venue",
+                "road": "Sedel",
+                "village": null,
+                "city_district": null,
+                "town": "Ebikon",
+                "city_2": null,
+                "state": "Lucerne",
+                "country_2": "Switzerland",
+                "postcode": "6020"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.299032201973729,
+                    47.06517565
+                ]
+            }
         }
     ]
 }
