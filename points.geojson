@@ -13314,7 +13314,7 @@
             "type": "Feature",
             "properties": {
                 "ID": "323",
-                "Name": "Amager Bio",
+                "Name": "Amager Bio & BETA",
                 "Address": "\u00d8resundsvej 6, Copenhagen, Denmark",
                 "City": "Copenhagen",
                 "Country": "Denmark",
@@ -13322,7 +13322,7 @@
                 "Type": "venue",
                 "Type_Public": "venue",
                 "Food": "no",
-                "Description": "Check their website for metal shows.",
+                "Description": "BETA is Amager Bio's smaller stage. Check their website for metal shows.",
                 "Review": "",
                 "osm_type": "node",
                 "display_name": "6, \u00d8resundsvej, Christianshavn, Copenhagen, Copenhagen Municipality, Capital Region of Denmark, 2300, Denmark",
@@ -24188,7 +24188,7 @@
                 "Type": "venue",
                 "Type_Public": "venue",
                 "Food": "no",
-                "Description": "Multi-purpose place. There are shows on the mainstage. It also has a recording studio and a club/bar/restaurant. Check their website for metal shows.",
+                "Description": "Multi-purpose place. There are shows on the mainstage. The Funhouse is on the second floor. It also has a recording studio and a club/bar/restaurant. Check their website for metal shows.",
                 "Review": "",
                 "osm_type": "way",
                 "display_name": "The Funhouse at Mr. Smalls, 400, Lincoln Avenue, Millvale, Allegheny County, Pennsylvania, 15209, United States",
@@ -28517,6 +28517,1338 @@
                 "coordinates": [
                     8.299032201973729,
                     47.06517565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "721",
+                "Name": "Foro Indierocks",
+                "Address": "Zacatecas 39, 06700 Ciudad de M\u00e9xico, Mexico",
+                "City": "Mexico City",
+                "Country": "Mexico",
+                "Website": "https://www.indierocks.mx/agenda/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Foro Indierocks, 39, Calle Zacatecas, Colonia Roma Norte, Cuauht\u00e9moc, Mexico City, 06700, Mexico",
+                "place_id": "369890643",
+                "class": "amenity",
+                "type_2": "events_venue",
+                "road": "Calle Zacatecas",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Mexico City",
+                "state": null,
+                "country_2": "Mexico",
+                "postcode": "06700"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.1561491,
+                    19.416627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "722",
+                "Name": "Anthems of the Awakened",
+                "Address": "\u00d8ster Voldgade 16, 7000 Fredericia, D\u00e4nemark",
+                "City": "Fredericia",
+                "Country": "Denmark",
+                "Website": "https://www.facebook.com/anthemoftheawakened/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "\u00d8ster Voldgade, Fredericia, Fredericia Municipality, Region of Southern Denmark, Denmark",
+                "place_id": "118602131",
+                "class": "highway",
+                "type_2": "tertiary",
+                "road": "\u00d8ster Voldgade",
+                "village": null,
+                "city_district": null,
+                "town": "Fredericia",
+                "city_2": null,
+                "state": "Region of Southern Denmark",
+                "country_2": "Denmark",
+                "postcode": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7677142,
+                    55.5665125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "723",
+                "Name": "Motocultor Festival ",
+                "Address": "56250 Saint-Nolff, France",
+                "City": "Saint-Nolff",
+                "Country": "France",
+                "Website": "https://www.motocultor-festival.com/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "relation",
+                "display_name": "Saint-Nolff, Vannes, Morbihan, Brittany, Metropolitan France, 56250, France",
+                "place_id": "298011667",
+                "class": "boundary",
+                "type_2": "administrative",
+                "road": null,
+                "village": "Saint-Nolff",
+                "city_district": null,
+                "town": null,
+                "city_2": null,
+                "state": "Brittany",
+                "country_2": "France",
+                "postcode": "56250"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6523793,
+                    47.7032918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "724",
+                "Name": "Zakl\u0119te Rewiry",
+                "Address": "Krakowska 100, 50-427 Wroc\u0142aw, Poland",
+                "City": "Wroc\u0142aw",
+                "Country": "Poland",
+                "Website": "https://www.facebook.com/ZakleteRewiry",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "100, Krakowska, Rakowiec, Osiedle Przedmie\u015bcie O\u0142awskie, Wroc\u0142aw, Lower Silesian Voivodeship, 50-427, Poland",
+                "place_id": "127961746",
+                "class": "building",
+                "type_2": "yes",
+                "road": "Krakowska",
+                "village": null,
+                "city_district": "Osiedle Przedmie\u015bcie O\u0142awskie",
+                "town": null,
+                "city_2": "Wroc\u0142aw",
+                "state": "Lower Silesian Voivodeship",
+                "country_2": "Poland",
+                "postcode": "50-427"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.06631987385633,
+                    51.0907422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "725",
+                "Name": "SWX",
+                "Address": "15 Nelson St, Bristol BS1 2JY, United Kingdom",
+                "City": "Bristol",
+                "Country": "UK",
+                "Website": "http://www.swxbristol.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "SWX, 15, Nelson Street, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 2JY, United Kingdom",
+                "place_id": "210226735",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Nelson Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Bristol",
+                "state": "England",
+                "country_2": "United Kingdom",
+                "postcode": "BS1 2JY"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.592163697570692,
+                    51.45657555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "726",
+                "Name": "Piere's",
+                "Address": "5629 St Joe Rd, Fort Wayne, IN 46835",
+                "City": "Fort Wayne",
+                "Country": "USA",
+                "Website": "https://pieresentertainment.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "5629, Saint Joe Road, Parkerdale, Fort Wayne, Allen County, Indiana, 46835, United States",
+                "place_id": "60087222",
+                "class": "place",
+                "type_2": "house",
+                "road": "Saint Joe Road",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Fort Wayne",
+                "state": "Indiana",
+                "country_2": "United States",
+                "postcode": "46835"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.102052,
+                    41.131535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "727",
+                "Name": "The Black Lab",
+                "Address": "8 Rue des Champs, 59290 Wasquehal, France",
+                "City": "Lille",
+                "Country": "France",
+                "Website": "http://www.theblacklab.fr/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "Music and food with attitude. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Rue des Champs, La Pilaterie, Villeneuve-d'Ascq, Lille, Nord, Hauts-de-France, Metropolitan France, 59491, France",
+                "place_id": "111624801",
+                "class": "highway",
+                "type_2": "unclassified",
+                "road": "Rue des Champs",
+                "village": null,
+                "city_district": null,
+                "town": "Villeneuve-d'Ascq",
+                "city_2": null,
+                "state": "Hauts-de-France",
+                "country_2": "France",
+                "postcode": "59491"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.1224781,
+                    50.6519994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "728",
+                "Name": "Ruhrpott Rodeo",
+                "Address": "Langerweg 46569 H\u00fcnxe, Germany",
+                "City": "H\u00fcnxe",
+                "Country": "Germany",
+                "Website": "https://www.ruhrpott-rodeo.de/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Mostly punk with a sprinkling of metal bands. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Langer Weg, H\u00fcnxe, Kreis Wesel, North Rhine-Westphalia, 46569, Germany",
+                "place_id": "115415655",
+                "class": "highway",
+                "type_2": "residential",
+                "road": "Langer Weg",
+                "village": "H\u00fcnxe",
+                "city_district": null,
+                "town": null,
+                "city_2": null,
+                "state": "North Rhine-Westphalia",
+                "country_2": "Germany",
+                "postcode": "46569"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8372292,
+                    51.624146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "729",
+                "Name": "Salle Diff'art / Association Diff'art",
+                "Address": "15 Rue du Pr\u00e9sident Salvador Allende, 79200 Parthenay, France",
+                "City": "Parthenay",
+                "Country": "France",
+                "Website": "http://www.sallediffart.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "More of an arts center. They may or may not have metal shows. Check their website. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "15, Rue du Pr\u00e9sident Salvador Allende, Le Grand Rouh\u00e9, Le Theatre, Parthenay, Deux-S\u00e8vres, Nouvelle-Aquitaine, Metropolitan France, 79200, France",
+                "place_id": "11224408",
+                "class": "place",
+                "type_2": "house",
+                "road": "Rue du Pr\u00e9sident Salvador Allende",
+                "village": null,
+                "city_district": null,
+                "town": "Parthenay",
+                "city_2": null,
+                "state": "Nouvelle-Aquitaine",
+                "country_2": "France",
+                "postcode": "79200"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.2377726,
+                    46.6504591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "730",
+                "Name": "The Chance Theater",
+                "Address": "6 Crannell St, Poughkeepsie, NY 12601",
+                "City": "Poughkeepsie",
+                "Country": "USA",
+                "Website": "http://thechancetheater.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "6, Crannell Street, City of Poughkeepsie, Dutchess County, New York, 12601, United States",
+                "place_id": "84408919",
+                "class": "place",
+                "type_2": "house",
+                "road": "Crannell Street",
+                "village": null,
+                "city_district": null,
+                "town": "City of Poughkeepsie",
+                "city_2": null,
+                "state": "New York",
+                "country_2": "United States",
+                "postcode": "12601"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9245826,
+                    41.7026751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "731",
+                "Name": "Small's Bar",
+                "Address": "10339 Conant, Hamtramck, MI 48212",
+                "City": "Detroit",
+                "Country": "USA",
+                "Website": "https://smallsbardetroit.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "They do a lot of rock and metal stuff. Check their website.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Small's, 10339, Conant Street, Hamtramck, Wayne County, Michigan, 48212, United States",
+                "place_id": "369981701",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Conant Street",
+                "village": null,
+                "city_district": null,
+                "town": "Hamtramck",
+                "city_2": null,
+                "state": "Michigan",
+                "country_2": "United States",
+                "postcode": "48212"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.05290588249764,
+                    42.40217575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "732",
+                "Name": "Hi-FI Annex",
+                "Address": "1043 Virginia Ave, Indianapolis, IN 46203",
+                "City": "Indianapolis",
+                "Country": "USA",
+                "Website": "https://hifiindy.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Pure, 1043, Virginia Avenue, Indianapolis, Marion County, Indiana, 46203, United States",
+                "place_id": "27008276",
+                "class": "amenity",
+                "type_2": "restaurant",
+                "road": "Virginia Avenue",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Indianapolis",
+                "state": "Indiana",
+                "country_2": "United States",
+                "postcode": "46203"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.1406519,
+                    39.7526076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "733",
+                "Name": "Anchor Rock Club",
+                "Address": "247 S New York Ave, Atlantic City, NJ 08401",
+                "City": "Atlantic City",
+                "Country": "USA",
+                "Website": "http://www.anchorrockclub.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "247, New York Avenue, Stanley S. Holmes Village, Atlantic City, Atlantic County, New Jersey, 08401, United States",
+                "place_id": "314173581",
+                "class": "place",
+                "type_2": "house",
+                "road": "New York Avenue",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Atlantic City",
+                "state": "New Jersey",
+                "country_2": "United States",
+                "postcode": "08401"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.42714971871867,
+                    39.358499848456574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "734",
+                "Name": "Supply & Demand",
+                "Address": "2500 E Anaheim St, Long Beach, CA 90804",
+                "City": "Long Beach",
+                "Country": "USA",
+                "Website": "http://sndlbc.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "They do a lot of punk shows but they do have metal shows too. Check their website.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "2500, East Anaheim Street, Long Beach, Los Angeles County, CAL Fire Southern Region, California, 90804, United States",
+                "place_id": "306346508",
+                "class": "place",
+                "type_2": "house",
+                "road": "East Anaheim Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Long Beach",
+                "state": "California",
+                "country_2": "United States",
+                "postcode": "90804"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.162072,
+                    33.782511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "735",
+                "Name": "House of Metal",
+                "Address": "Skolgatan 59, 903 29 Ume\u00e5, Sweden",
+                "City": "Ume\u00e5",
+                "Country": "Sweden",
+                "Website": "https://www.houseofmetal.se/en/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Ume\u00e5 Folkets Hus, 59, Skolgatan, Centrum, Centrala stan, Ume\u00e5, Ume\u00e5 kommun, V\u00e4sterbotten County, 903 29, Sweden",
+                "place_id": "133294404",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "Skolgatan",
+                "village": null,
+                "city_district": "Centrala stan",
+                "town": null,
+                "city_2": "Ume\u00e5",
+                "state": null,
+                "country_2": "Sweden",
+                "postcode": "903 29"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.266543740539785,
+                    63.82680955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "736",
+                "Name": "Sandviken Heavy Metal Army",
+                "Address": "Fredriksgatan 35, 811 33 Sandviken, Sweden",
+                "City": "Sandviken",
+                "Country": "Sweden",
+                "Website": "https://www.facebook.com/shmarockclub/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Strictly heavy metal club. They also do live music. ",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Sandviken Heavy Metal Army, 35, Fredriksgatan, Bruket, Sandviken, Sandvikens kommun, G\u00e4vleborg County, 811 33, Sweden",
+                "place_id": "369978344",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Fredriksgatan",
+                "village": null,
+                "city_district": null,
+                "town": "Sandviken",
+                "city_2": null,
+                "state": null,
+                "country_2": "Sweden",
+                "postcode": "811 33"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.7693921,
+                    60.6141006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "737",
+                "Name": "Club Vadeville",
+                "Address": "Von-Behring-Stra\u00dfe 6, 88131 Lindau, Germany",
+                "City": "Lindau",
+                "Country": "Germany",
+                "Website": "https://vaudeville.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Dr. med. vet. Mayer, 6, Von-Behring-Stra\u00dfe, Leuchtenberg, Reutin, Rickenbach, Lindau (Bodensee), Landkreis Lindau, Bavaria, 88131, Germany",
+                "place_id": "14243407",
+                "class": "amenity",
+                "type_2": "veterinary",
+                "road": "Von-Behring-Stra\u00dfe",
+                "village": "Rickenbach",
+                "city_district": null,
+                "town": "Lindau (Bodensee)",
+                "city_2": null,
+                "state": "Bavaria",
+                "country_2": "Germany",
+                "postcode": "88131"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7227087,
+                    47.5515185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "738",
+                "Name": "KufA Haus",
+                "Address": "Westbahnhof 13, 38118 Braunschweig, Germany",
+                "City": "Braunschweig",
+                "Country": "Germany",
+                "Website": "http://kufa.haus/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Soziokulturelles Zentrum KufA-Haus, 13, Westbahnhof, Westliches Ringgebiet, Brunswick, Lower Saxony, 38118, Germany",
+                "place_id": "73955903",
+                "class": "amenity",
+                "type_2": "community_centre",
+                "road": "Westbahnhof",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Brunswick",
+                "state": "Lower Saxony",
+                "country_2": "Germany",
+                "postcode": "38118"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.4995555,
+                    52.2533456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "739",
+                "Name": "Coca-Cola Roxy",
+                "Address": "800 Battery Ave SE #500, Atlanta, GA 30339",
+                "City": "Atlanta",
+                "Country": "USA",
+                "Website": "http://www.cocacolaroxy.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "The Roxy, 800, Battery Avenue Southeast, The Battery Atlanta, Vinings, Cobb County, Georgia, 30339, United States",
+                "place_id": "223744147",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "Battery Avenue Southeast",
+                "village": null,
+                "city_district": null,
+                "town": "Vinings",
+                "city_2": null,
+                "state": "Georgia",
+                "country_2": "United States",
+                "postcode": "30339"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.46982611075248,
+                    33.89041225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "740",
+                "Name": "Musikbunker Aachen",
+                "Address": "Rehmannstra\u00dfe, 52066 Aachen, Germany",
+                "City": "Aachen",
+                "Country": "Germany",
+                "Website": "https://mubu.ac/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Rehmannstra\u00dfe, Frankenberger Viertel, Burtscheid (Gemarkung), Aachen-Mitte, Aachen, St\u00e4dteregion Aachen, North Rhine-Westphalia, 52066, Germany",
+                "place_id": "104720452",
+                "class": "highway",
+                "type_2": "residential",
+                "road": "Rehmannstra\u00dfe",
+                "village": null,
+                "city_district": "Aachen-Mitte",
+                "town": null,
+                "city_2": "Aachen",
+                "state": "North Rhine-Westphalia",
+                "country_2": "Germany",
+                "postcode": "52066"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1027385,
+                    50.7676102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "741",
+                "Name": "Nalen Klubb",
+                "Address": "Regeringsgatan 74, 111 39 Stockholm, Sweden",
+                "City": "Stockholm",
+                "Country": "Sweden",
+                "Website": "http://www.nalen.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "74, Regeringsgatan, Klara, Norrmalm, Norrmalms stadsdelsomr\u00e5de, Stockholms kommun, Stockholm County, 111 39, Sweden",
+                "place_id": "79574520",
+                "class": "place",
+                "type_2": "house",
+                "road": "Regeringsgatan",
+                "village": null,
+                "city_district": "Norrmalms stadsdelsomr\u00e5de",
+                "town": null,
+                "city_2": null,
+                "state": null,
+                "country_2": "Sweden",
+                "postcode": "111 39"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0675015,
+                    59.3370794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "742",
+                "Name": "Skogsr\u00f6jet",
+                "Address": "M\u00e4starev\u00e4gen 31C, 610 14 Rejmyre, Sweden",
+                "City": "Rejmyre",
+                "Country": "Sweden",
+                "Website": "https://skogsrojet.se/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "M\u00e4starev\u00e4gen, Rejmyre, Finsp\u00e5ngs kommun, \u00d6sterg\u00f6tland County, 612 71, Sweden",
+                "place_id": "260708374",
+                "class": "highway",
+                "type_2": "residential",
+                "road": "M\u00e4starev\u00e4gen",
+                "village": "Rejmyre",
+                "city_district": null,
+                "town": null,
+                "city_2": null,
+                "state": null,
+                "country_2": "Sweden",
+                "postcode": "612 71"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.9315086,
+                    58.8254311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "743",
+                "Name": "Cosmic Eye Brewing",
+                "Address": "6800 P St, Lincoln, NE 68505",
+                "City": "Lincoln",
+                "Country": "USA",
+                "Website": "http://www.cosmiceye.beer/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "Brewery that does live music too. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "6800, P Street, Meadowlane, Lincoln, Lancaster County, Nebraska, 68505, United States",
+                "place_id": "326676529",
+                "class": "place",
+                "type_2": "house",
+                "road": "P Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Lincoln",
+                "state": "Nebraska",
+                "country_2": "United States",
+                "postcode": "68505"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.63044,
+                    40.814803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "744",
+                "Name": "Ralph's Rock Diner",
+                "Address": "148 Grove St, Worcester, MA 01605",
+                "City": "Worcester",
+                "Country": "USA",
+                "Website": "http://www.ralphsrockdiner.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "Eclectic pub that does live music. The diner is an old diner rail car buit in the 1930's. Antiques on the wall. They prettty much cater to the rock and alternative scene. Cool place!",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Ralph's Diner, 148, Grove Street, Lincoln Square, Belmont Hill, Worcester, Worcester County, Massachusetts, 01605, United States",
+                "place_id": "157238892",
+                "class": "amenity",
+                "type_2": "restaurant",
+                "road": "Grove Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Worcester",
+                "state": "Massachusetts",
+                "country_2": "United States",
+                "postcode": "01605"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.80102885110712,
+                    42.27770405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "745",
+                "Name": "MilkBoy Philly",
+                "Address": "1100 Chestnut St, Philadelphia, PA 19107",
+                "City": "Philadelphia",
+                "Country": "USA",
+                "Website": "http://www.milkboyphilly.com/files/2012/12/MBCC-Menu_12.26.12f.pdf",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "It is actually a restaurant, bar, cafe and live menu all in one. The music venue is upstairs. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "MilkBoy Philadelphia, 1100, Chestnut Street, Gayborhood, Center City, Philadelphia, Philadelphia County, Pennsylvania, 19107, United States",
+                "place_id": "186413000",
+                "class": "amenity",
+                "type_2": "restaurant",
+                "road": "Chestnut Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Philadelphia",
+                "state": "Pennsylvania",
+                "country_2": "United States",
+                "postcode": "19107"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.15880328126393,
+                    39.95000375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "746",
+                "Name": "Metro Gallery",
+                "Address": "1700 N Charles St, Baltimore, MD 21201",
+                "City": "Baltimore",
+                "Country": "USA",
+                "Website": "http://themetrogallery.net/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "Art, Film, music and drinks! They got all the good shit. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "The Metro Gallery, 1700, North Charles Street, Charles North, Baltimore, Maryland, 21201, United States",
+                "place_id": "165442807",
+                "class": "tourism",
+                "type_2": "gallery",
+                "road": "North Charles Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Baltimore",
+                "state": "Maryland",
+                "country_2": "United States",
+                "postcode": "21201"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.61679163020455,
+                    39.30891465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "747",
+                "Name": "The Poor House Music Hall & Record Shop",
+                "Address": "224 S Blount St, Raleigh, NC 27601",
+                "City": "Raleigh",
+                "Country": "USA",
+                "Website": "https://thepourhousemusichall.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "It is a record shop by day, and has an extensive vinyl selection. By night it is a live music venue! Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "224, South Blount Street, Historic Oakwood, Warehouse District, Raleigh, Wake County, North Carolina, 27601, United States",
+                "place_id": "312657758",
+                "class": "place",
+                "type_2": "house",
+                "road": "South Blount Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Raleigh",
+                "state": "North Carolina",
+                "country_2": "United States",
+                "postcode": "27601"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.6366972172767,
+                    35.77779562579755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "748",
+                "Name": "The Hall & Lounge",
+                "Address": "1882 Adanac Street, Vancouver, Canada",
+                "City": "Vancouver",
+                "Country": "Canada",
+                "Website": "https://www.facebook.com/thewiseclub",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Wise Club & Hall, 1882, Adanac Street, Grandview-Woodland, Vancouver, Metro Vancouver Regional District, British Columbia, V5L 4E5, Canada",
+                "place_id": "349572822",
+                "class": "amenity",
+                "type_2": "pub",
+                "road": "Adanac Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Vancouver",
+                "state": "British Columbia",
+                "country_2": "Canada",
+                "postcode": "V5L 4E5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.06608985041646,
+                    49.2773005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "749",
+                "Name": "Globe Hall",
+                "Address": "4483 Logan St, Denver, CO 80216",
+                "City": "Denver",
+                "Country": "USA",
+                "Website": "http://www.globehall.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "yes",
+                "Description": "They serve food when there are bands playing. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Globe Hall, 4483, Logan Street, Globeville, Denver, Colorado, 80216, United States",
+                "place_id": "204272967",
+                "class": "amenity",
+                "type_2": "restaurant",
+                "road": "Logan Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Denver",
+                "state": "Colorado",
+                "country_2": "United States",
+                "postcode": "80216"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.98266439744361,
+                    39.7780082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "750",
+                "Name": "Pub Rock",
+                "Address": "8005 E Roosevelt St, Scottsdale, AZ 85257",
+                "City": "Scottsdale",
+                "Country": "USA",
+                "Website": "http://www.pubrocklive.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "It's home to Kanas City Chiefs fanbase during football season. Otherwise, it's a pub that does live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "8005, East Roosevelt Street, Scottsdale, Maricopa County, Arizona, 85257, United States",
+                "place_id": "334088091",
+                "class": "place",
+                "type_2": "house",
+                "road": "East Roosevelt Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Scottsdale",
+                "state": "Arizona",
+                "country_2": "United States",
+                "postcode": "85257"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.90881836363636,
+                    33.45846632323232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "751",
+                "Name": "Hop Springs Beer Park",
+                "Address": "6790 John Bragg Hwy, Murfreesboro, TN 37127",
+                "City": "Murfreesboro",
+                "Country": "USA",
+                "Website": "https://www.hopspringstn.com/beer/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Outdoors sort of place that sits on 83 acres of rural Tennessee. They have disc golf and walking trails. They also do live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "6790, John Bragg Highway, Murfreesboro, Rutherford County, Middle Tennessee, Tennessee, 37127, United States",
+                "place_id": "316719571",
+                "class": "place",
+                "type_2": "house",
+                "road": "John Bragg Highway",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Murfreesboro",
+                "state": "Tennessee",
+                "country_2": "United States",
+                "postcode": "37127"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.26554228373904,
+                    35.82429648029151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "752",
+                "Name": "The Loft",
+                "Address": "1374 W Peachtree St NW, Atlanta, GA 30309",
+                "City": "Atlanta",
+                "Country": "USA",
+                "Website": "https://www.centerstage-atlanta.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Center Stage Theater, 1374, West Peachtree Street Northwest, Ansley Park, Atlanta, Fulton County, Georgia, 30309, United States",
+                "place_id": "172098509",
+                "class": "amenity",
+                "type_2": "events_venue",
+                "road": "West Peachtree Street Northwest",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Atlanta",
+                "state": "Georgia",
+                "country_2": "United States",
+                "postcode": "30309"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.38823499449724,
+                    33.79212385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "753",
+                "Name": "Dark Nectar Coffee",
+                "Address": "5915 Entrada Ave, Atascadero, CA 93422",
+                "City": "Alascadero",
+                "Country": "USA",
+                "Website": "https://www.facebook.com/DarkNectarRoasting",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "It is a coffee shop, yes. But they do live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Dark Nectar Coffee, 5915, Entrada Avenue, Atascadero, San Luis Obispo County, CAL Fire Southern Region, California, 93422, United States",
+                "place_id": "58504559",
+                "class": "amenity",
+                "type_2": "cafe",
+                "road": "Entrada Avenue",
+                "village": null,
+                "city_district": null,
+                "town": "Atascadero",
+                "city_2": null,
+                "state": "California",
+                "country_2": "United States",
+                "postcode": "93422"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.668651,
+                    35.489885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "754",
+                "Name": "New Cross Inn",
+                "Address": "323 New Cross Rd, London SE14 6AS, United Kingdom",
+                "City": "London",
+                "Country": "UK",
+                "Website": "https://www.newcrossinn.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "Live shows seven days a week. And drink. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "New Cross Inn, 323, New Cross Road, New Cross, London Borough of Lewisham, London, Greater London, England, SE14 6AS, United Kingdom",
+                "place_id": "795283",
+                "class": "amenity",
+                "type_2": "pub",
+                "road": "New Cross Road",
+                "village": null,
+                "city_district": "London Borough of Lewisham",
+                "town": null,
+                "city_2": "London",
+                "state": "England",
+                "country_2": "United Kingdom",
+                "postcode": "SE14 6AS"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0370911,
+                    51.4757953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "755",
+                "Name": "Mass Destruction Fest",
+                "Address": "1374 W Peachtree St NW, Atlanta, GA 30309",
+                "City": "Atlanta",
+                "Country": "USA",
+                "Website": "https://massdestructionmetalfest.com/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Center Stage Theater, 1374, West Peachtree Street Northwest, Ansley Park, Atlanta, Fulton County, Georgia, 30309, United States",
+                "place_id": "172098509",
+                "class": "amenity",
+                "type_2": "events_venue",
+                "road": "West Peachtree Street Northwest",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Atlanta",
+                "state": "Georgia",
+                "country_2": "United States",
+                "postcode": "30309"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.38823499449724,
+                    33.79212385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "756",
+                "Name": "TV Eye",
+                "Address": "1647 Weirfield St, Ridgewood, NY 11385",
+                "City": "Queens",
+                "Country": "USA",
+                "Website": "https://tveyenyc.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "puba and venue",
+                "Food": "yes",
+                "Description": "Venue, bar, dance club, gallery and eatery. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "1647, Weirfield Street, Ridgewood, Queens, New York, 11385, United States",
+                "place_id": "168186846",
+                "class": "building",
+                "type_2": "yes",
+                "road": "Weirfield Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "New York",
+                "state": "New York",
+                "country_2": "United States",
+                "postcode": "11385"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.9053340480238,
+                    40.69791075
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "757",
+                "Name": "Johnny Brenda's",
+                "Address": "1201 Frankford Ave, Philadelphia, PA 19125",
+                "City": "Philadelphia",
+                "Country": "USA",
+                "Website": "http://www.johnnybrendas.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "A pub that does shows also. They also serve food. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Johnny Brenda's Tavern, 1201, Frankford Avenue, Fishtown, Philadelphia, Philadelphia County, Pennsylvania, 19125, United States",
+                "place_id": "276671755",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Frankford Avenue",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Philadelphia",
+                "state": "Pennsylvania",
+                "country_2": "United States",
+                "postcode": "19125"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.13422726273006,
+                    39.96914135
                 ]
             }
         }
