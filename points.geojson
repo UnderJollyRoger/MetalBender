@@ -26195,78 +26195,6 @@
         {
             "type": "Feature",
             "properties": {
-                "ID": "691",
-                "Name": "Dorock XL Venue",
-                "Address": "Dorock XL Venue, \u0130stiklal Caddesi 12/1, 34435 Beyo\u011flu",
-                "City": "Istanbul",
-                "Country": "Turkey",
-                "Website": "https://www.instagram.com/dorockxlvenue/?hl=en",
-                "Type": "venue",
-                "Type_Public": "venue",
-                "Food": "no",
-                "Description": "Check their website for metal shows. You might get lucky.",
-                "Review": "",
-                "osm_type": "node",
-                "display_name": "Dorock XL Venue, 12/1, Independence Avenue, Kulo\u011flu, Kulo\u011flu Mahallesi, Beyo\u011flu, Istanbul, Marmara Region, 34435, Turkey",
-                "place_id": "368642726",
-                "class": "amenity",
-                "type_2": "theatre",
-                "road": "Independence Avenue",
-                "village": null,
-                "city_district": "Kulo\u011flu Mahallesi",
-                "town": "Beyo\u011flu",
-                "city_2": null,
-                "state": null,
-                "country_2": "Turkey",
-                "postcode": "34435"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.982929,
-                    41.0358546
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "ID": "692",
-                "Name": "Dorock Heavy Metal Club",
-                "Address": "Kameriye Soka\u011f\u0131 11/A, 34435 Beyo\u011flu, Istanbul",
-                "City": "Istanbul",
-                "Country": "Turkey",
-                "Website": "https://instagram.com/dorockheavymetal",
-                "Type": "pubandvenue",
-                "Type_Public": "pub and venue",
-                "Food": "no",
-                "Description": "Check their website for metal shows. You might get lucky.",
-                "Review": "",
-                "osm_type": "node",
-                "display_name": "Dorock Heavy Metal Club, 11/A, Kameriye Soka\u011f\u0131, H\u00fcseyina\u011fa, H\u00fcseyina\u011fa Mahallesi, Beyo\u011flu, Istanbul, Marmara Region, 34435, Turkey",
-                "place_id": "368642916",
-                "class": "amenity",
-                "type_2": "bar",
-                "road": "Kameriye Soka\u011f\u0131",
-                "village": null,
-                "city_district": "H\u00fcseyina\u011fa Mahallesi",
-                "town": "Beyo\u011flu",
-                "city_2": null,
-                "state": null,
-                "country_2": "Turkey",
-                "postcode": "34435"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    28.9774348,
-                    41.0349494
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "ID": "693",
                 "Name": "Kaiowas Motorcycle Club",
                 "Address": "R. \u00c2ngelo C\u00e2ndido, 742, Leme, 13614-290, Brazil",
@@ -30215,42 +30143,6 @@
         {
             "type": "Feature",
             "properties": {
-                "ID": "772",
-                "Name": "X-Ray Arcade",
-                "Address": "5036 S Packard Ave, Cudahy, WI 53110",
-                "City": "Milwaukee",
-                "Country": "USA",
-                "Website": "https://xrayarcade.com/",
-                "Type": "pubandvenue",
-                "Type_Public": "pub and venue",
-                "Food": "yes",
-                "Description": "The very famous X-Ray Arcade. Food and drink. Games, music and video. Check their website for metal shows. You might get lucky.",
-                "Review": "",
-                "osm_type": "way",
-                "display_name": "X-Ray Arcade, 5036, South Packard Avenue, Cudahy, Milwaukee County, Wisconsin, 53110, United States",
-                "place_id": "238138427",
-                "class": "amenity",
-                "type_2": "nightclub",
-                "road": "South Packard Avenue",
-                "village": null,
-                "city_district": null,
-                "town": "Cudahy",
-                "city_2": null,
-                "state": "Wisconsin",
-                "country_2": "United States",
-                "postcode": "53110"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.8597089931877,
-                    42.9529484
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "ID": "773",
                 "Name": "Wildwood Smokehouse & Saloon",
                 "Address": "4919 Walleye Dr SE, Iowa City, IA 52240",
@@ -30317,42 +30209,6 @@
                 "coordinates": [
                     -77.5656355,
                     39.115644
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "ID": "775",
-                "Name": "The Queen",
-                "Address": "500 N Market St, Wilmington, DE 19801",
-                "City": "Wilmington",
-                "Country": "USA",
-                "Website": "http://www.thequeenwilmington.com/",
-                "Type": "venue",
-                "Type_Public": "venue",
-                "Food": "no",
-                "Description": "All genres venue. Check their website for metal shows. You might get lucky.",
-                "Review": "",
-                "osm_type": "node",
-                "display_name": "World Cafe Live, 500, North Market Street, LOMA, Wilmington, New Castle County, Delaware, 19801, United States",
-                "place_id": "50886286",
-                "class": "amenity",
-                "type_2": "arts_centre",
-                "road": "North Market Street",
-                "village": null,
-                "city_district": null,
-                "town": null,
-                "city_2": "Wilmington",
-                "state": "Delaware",
-                "country_2": "United States",
-                "postcode": "19801"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -75.5506005,
-                    39.7412621
                 ]
             }
         },
@@ -31001,6 +30857,1086 @@
                 "coordinates": [
                     -75.5506005,
                     39.7412621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "776",
+                "Name": "Reverb Lounge",
+                "Address": "6121 Military Ave, Omaha, NE 68104",
+                "City": "Omaha",
+                "Country": "USA",
+                "Website": "http://reverblounge.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "6121, Military Avenue, Benson, Omaha, Douglas County, Nebraska, 68104, United States",
+                "place_id": "304669801",
+                "class": "place",
+                "type_2": "house",
+                "road": "Military Avenue",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Omaha",
+                "state": "Nebraska",
+                "country_2": "United States",
+                "postcode": "68104"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.00859149226822,
+                    41.28555590507229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "777",
+                "Name": "Southgate House Revival",
+                "Address": "111 E 6th St, Newport, KY 41071",
+                "City": "Newport",
+                "Country": "USA",
+                "Website": "http://southgatehouse.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "The Southgate House Revival, 111, East 6th Street, Monmouth Street Business District, The Estates At Wiedemann Mansion, Newport, Campbell County, Kentucky, 41071, United States",
+                "place_id": "139494231",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "East 6th Street",
+                "village": null,
+                "city_district": null,
+                "town": "Newport",
+                "city_2": null,
+                "state": "Kentucky",
+                "country_2": "United States",
+                "postcode": "41071"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.493166,
+                    39.09209325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "778",
+                "Name": "Black Circle Brewing",
+                "Address": "2201 E 46th St, Indianapolis, IN 46205",
+                "City": "Indianapolis",
+                "Country": "USA",
+                "Website": "http://www.blackcirclebrewing.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "Brewpub and kitchen that does live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Black Circle Brewing Company, 2201, East 46th Street, Indianapolis, Marion County, Indiana, 46205, United States",
+                "place_id": "55658441",
+                "class": "amenity",
+                "type_2": "pub",
+                "road": "East 46th Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Indianapolis",
+                "state": "Indiana",
+                "country_2": "United States",
+                "postcode": "46205"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.1239156,
+                    39.8396473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "779",
+                "Name": "Cherry Street Station",
+                "Address": "491 N Cherry St, Wallingford, CT 06492",
+                "City": "Wallingford",
+                "Country": "USA",
+                "Website": "https://cherrystreetstation.business.site/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. Looks like they are only open Friday through Sunday.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "North Cherry Street, Wallingford, South Central Connecticut Planning Region, Connecticut, 06492, United States",
+                "place_id": "107934789",
+                "class": "highway",
+                "type_2": "residential",
+                "road": "North Cherry Street",
+                "village": null,
+                "city_district": null,
+                "town": "Wallingford",
+                "city_2": null,
+                "state": "Connecticut",
+                "country_2": "United States",
+                "postcode": "06492"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.8239216,
+                    41.4608346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "780",
+                "Name": "Silk City Diner, Bar and Lounge",
+                "Address": "435 Spring Garden St, Philadelphia, PA 19123",
+                "City": "Philadelphia",
+                "Country": "USA",
+                "Website": "http://www.silkcityphilly.com/",
+                "Type": "restaurantandvenue",
+                "Type_Public": "restaurant and venue",
+                "Food": "yes",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Silk City, 435, Spring Garden Street, Northern Liberties, Philadelphia, Philadelphia County, Pennsylvania, 19123, United States",
+                "place_id": "285737005",
+                "class": "amenity",
+                "type_2": "restaurant",
+                "road": "Spring Garden Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Philadelphia",
+                "state": "Pennsylvania",
+                "country_2": "United States",
+                "postcode": "19123"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.14617418590925,
+                    39.96134865
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "781",
+                "Name": "The Runaway",
+                "Address": "3523 12th St NE, Washington, DC 20017",
+                "City": "Washington",
+                "Country": "USA",
+                "Website": "https://www.therunawaydc.com/",
+                "Type": "restaurantandvenue",
+                "Type_Public": "restaurant and venue",
+                "Food": "yes",
+                "Description": "Interesting place judging from the website. Looks more rock-oriented restaurant that does live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "The Runaway, 3523, 12th Street Northeast, Bellair, Brookland, Washington, District of Columbia, 20017, United States",
+                "place_id": "97082271",
+                "class": "amenity",
+                "type_2": "restaurant",
+                "road": "12th Street Northeast",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Washington",
+                "state": "District of Columbia",
+                "country_2": "United States",
+                "postcode": "20017"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.9909023,
+                    38.9332456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "782",
+                "Name": "Tin Roof",
+                "Address": "1117 Magnolia Rd, Charleston, SC 29407",
+                "City": "Charleston",
+                "Country": "USA",
+                "Website": "http://charlestontinroof.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "yes",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "1117, Magnolia Road, Maryville, Charleston, Charleston County, South Carolina, 29407, United States",
+                "place_id": "307994308",
+                "class": "place",
+                "type_2": "house",
+                "road": "Magnolia Road",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Charleston",
+                "state": "South Carolina",
+                "country_2": "United States",
+                "postcode": "29407"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.99624791270048,
+                    32.796089347225866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "783",
+                "Name": "529 Bar",
+                "Address": "529 Flat Shoals Ave SE, Atlanta, GA 30316",
+                "City": "Atalnta",
+                "Country": "USA",
+                "Website": "http://529atlanta.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "529 Bar, 529, Flat Shoals Avenue Southeast, East Atlanta Village, Atlanta, DeKalb County, Georgia, 30316, United States",
+                "place_id": "283569126",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Flat Shoals Avenue Southeast",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Atlanta",
+                "state": "Georgia",
+                "country_2": "United States",
+                "postcode": "30316"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.3452625784561,
+                    33.73988615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "784",
+                "Name": "The Handlebar",
+                "Address": "319 N Tarragona St, Pensacola, FL 32501",
+                "City": "Pensacola",
+                "Country": "USA",
+                "Website": "https://thehandlebar850.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Since 1983. Underground and alternative music. Check their website for metal shows.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Handlebar, 319, North Tarragona Street, North Hill, Pensacola, Escambia County, Florida, 32501, United States",
+                "place_id": "345277001",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "North Tarragona Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Pensacola",
+                "state": "Florida",
+                "country_2": "United States",
+                "postcode": "32501"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.21395720605423,
+                    30.4178293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "785",
+                "Name": "Freetown Boom Boom Room",
+                "Address": "300 McKinley St, Lafayette, LA 70501",
+                "City": "Lafayette",
+                "Country": "USA",
+                "Website": "https://www.facebook.com/freetownboomboomroom/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "300, McKinley Street, Arbolada Addition, Lafayette, Lafayette Parish, Louisiana, 70501, United States",
+                "place_id": "311793873",
+                "class": "place",
+                "type_2": "house",
+                "road": "McKinley Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Lafayette",
+                "state": "Louisiana",
+                "country_2": "United States",
+                "postcode": "70501"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -92.01411,
+                    30.215676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "786",
+                "Name": "The Mix",
+                "Address": "2423 N St Mary's St, San Antonio, TX 78212",
+                "City": "San Antonio",
+                "Country": "USA",
+                "Website": "http://www.themixsa.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "2423, North Saint Mary's Street, Saint Mary's Strip, San Antonio, Bexar County, Texas, 78212, United States",
+                "place_id": "302652622",
+                "class": "place",
+                "type_2": "house",
+                "road": "North Saint Mary's Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "San Antonio",
+                "state": "Texas",
+                "country_2": "United States",
+                "postcode": "78212"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.48789706464123,
+                    29.44848596022844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "787",
+                "Name": "40 Watt Club",
+                "Address": "285 W Washington St, Athens, GA 30601",
+                "City": "Athens ",
+                "Country": "USA",
+                "Website": "http://www.40watt.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "40 Watt Club, 285, West Washington Street, Athens-Clarke County Unified Government, Athens-Clarke County, Georgia, 30601, United States",
+                "place_id": "3658221",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "West Washington Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Athens-Clarke County Unified Government",
+                "state": "Georgia",
+                "country_2": "United States",
+                "postcode": "30601"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.3800219,
+                    33.9582993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "788",
+                "Name": "Amityville Music Hall",
+                "Address": "198 Broadway, Amityville, NY 11701",
+                "City": "Amityville",
+                "Country": "USA",
+                "Website": "https://www.amityvillemusichall.org/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Amityville Music Hall, 198, Broadway, Village of Amityville, Town of Babylon, Suffolk County, New York, 11701, United States",
+                "place_id": "210032409",
+                "class": "building",
+                "type_2": "yes",
+                "road": "Broadway",
+                "village": null,
+                "city_district": null,
+                "town": "Village of Amityville",
+                "city_2": null,
+                "state": "New York",
+                "country_2": "United States",
+                "postcode": "11701"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.41768399207453,
+                    40.67905415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "789",
+                "Name": "The Loud",
+                "Address": "741 6th Ave, Huntington, WV 25701",
+                "City": "Huntington",
+                "Country": "USA",
+                "Website": "http://theloudwv.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "yes",
+                "Description": "Live music and beer garden. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "The Loud, 741, 6th Avenue, Huntington, Cabell County, West Virginia, 25701, United States",
+                "place_id": "371277902",
+                "class": "amenity",
+                "type_2": "events_venue",
+                "road": "6th Avenue",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Huntington",
+                "state": "West Virginia",
+                "country_2": "United States",
+                "postcode": "25701"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.4449624,
+                    38.4175378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "790",
+                "Name": "Eastside Bowl",
+                "Address": "1508A Gallatin Pike, Madison, TN 37115",
+                "City": "Nashville",
+                "Country": "USA",
+                "Website": "http://eastsidebowl.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Bowling Alley that also does live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Gallatin Pike, Madison, Nashville-Davidson, Davidson County, Middle Tennessee, Tennessee, 37115, United States",
+                "place_id": "357948092",
+                "class": "highway",
+                "type_2": "primary",
+                "road": "Gallatin Pike",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Nashville-Davidson",
+                "state": "Tennessee",
+                "country_2": "United States",
+                "postcode": "37115"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.7137113,
+                    36.258056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "791",
+                "Name": "Tulips",
+                "Address": "112 St Louis Ave, Fort Worth, TX 76104",
+                "City": "Fort Worth",
+                "Country": "USA",
+                "Website": "http://tulipsftw.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Tulips Fort Worth's, 112, Saint Louis Avenue, Fort Worth, Tarrant County, Texas, 76104, United States",
+                "place_id": "214884811",
+                "class": "building",
+                "type_2": "yes",
+                "road": "Saint Louis Avenue",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Fort Worth",
+                "state": "Texas",
+                "country_2": "United States",
+                "postcode": "76104"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.32899571170307,
+                    32.74320795
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "792",
+                "Name": "The Catalyst",
+                "Address": "1011 Pacific Ave, Santa Cruz, CA 95060",
+                "City": "Santa Cruz",
+                "Country": "USA",
+                "Website": "http://catalystclub.com/",
+                "Type": "restaurantandvenue",
+                "Type_Public": "restaurant and venue",
+                "Food": "yes",
+                "Description": "Restaurant and night club. They also do live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "The Catalyst, 1011, Pacific Avenue, Downtown District (Commercial), Downtown, Santa Cruz, Santa Cruz County, CAL Fire Northern Region, California, 95060, United States",
+                "place_id": "115529989",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Pacific Avenue",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Santa Cruz",
+                "state": "California",
+                "country_2": "United States",
+                "postcode": "95060"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.02588366539207,
+                    36.97128275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "793",
+                "Name": "Void Fest",
+                "Address": "93449 Sinzendorf",
+                "City": "Waldm\u00fcnchen",
+                "Country": "Germany",
+                "Website": "https://en.voidfest.de/",
+                "Type": "festival",
+                "Type_Public": "festival",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Sinzendorf, Waldm\u00fcnchen, Landkreis Cham, Bavaria, Germany",
+                "place_id": "1158435",
+                "class": "place",
+                "type_2": "village",
+                "road": null,
+                "village": "Sinzendorf",
+                "city_district": null,
+                "town": "Waldm\u00fcnchen",
+                "city_2": null,
+                "state": "Bavaria",
+                "country_2": "Germany",
+                "postcode": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.6595172,
+                    49.3371768
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "794",
+                "Name": "P8\u00b2",
+                "Address": "Schauenburgstra\u00dfe 5, 76135 Karlsruhe, Germany",
+                "City": "Karlsruhe",
+                "Country": "Germany",
+                "Website": "https://www.p-acht.org/ ",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Support your local subculture. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "RetroGames e.V, 5, Schauenburgstra\u00dfe, Bulach, Beiertheim-Bulach, Karlsruhe, Baden-W\u00fcrttemberg, 76135, Germany",
+                "place_id": "12316678",
+                "class": "tourism",
+                "type_2": "museum",
+                "road": "Schauenburgstra\u00dfe",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Karlsruhe",
+                "state": "Baden-W\u00fcrttemberg",
+                "country_2": "Germany",
+                "postcode": "76135"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.3718512,
+                    48.9890192
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "795",
+                "Name": "Gaswerk",
+                "Address": "u. Sch\u00f6ntalstrasse 19, 8406 Winterthur, Switzerland",
+                "City": "Winterthur",
+                "Country": "Switzerland",
+                "Website": "https://gaswerk.ch/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Gaswerk, 19, Untere Sch\u00f6ntalstrasse, Sch\u00f6ntal, T\u00f6ss, Winterthur, Bezirk Winterthur, Zurich, 8400, Switzerland",
+                "place_id": "114497416",
+                "class": "amenity",
+                "type_2": "nightclub",
+                "road": "Untere Sch\u00f6ntalstrasse",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Winterthur",
+                "state": "Zurich",
+                "country_2": "Switzerland",
+                "postcode": "8400"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.70777964893382,
+                    47.49452855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "796",
+                "Name": "Cinema Perla",
+                "Address": "Via San Donato, 38, 40127 Bologna, Italy",
+                "City": "Bologna",
+                "Country": "Italy",
+                "Website": "http://www.cinemaperlabologna.org/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Sant\u2019Egidio, 38, Via San Donato, Cirenaica, San Donato-San Vitale, Bologna, Emilia-Romagna, 40127, Italy",
+                "place_id": "14950409",
+                "class": "amenity",
+                "type_2": "place_of_worship",
+                "road": "Via San Donato",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Bologna",
+                "state": "Emilia-Romagna",
+                "country_2": "Italy",
+                "postcode": "40127"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3585111,
+                    44.4998621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "797",
+                "Name": "Stary Klasztor",
+                "Address": "Jana Ewangelisty Purkyniego 1, 50-155 Wroc\u0142aw, Poland",
+                "City": "Wroc\u0142aw",
+                "Country": "Poland",
+                "Website": "https://staryklasztor.com.pl/menu/",
+                "Type": "restaurantandvenue",
+                "Type_Public": "restaurant and venue",
+                "Food": "yes",
+                "Description": "Looks to be a restaurant that also has a stage for live music. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "1, Jana Ewangelisty Purkyniego, Ostr\u00f3w Tumski, Osiedle Stare Miasto, Wroc\u0142aw, Lower Silesian Voivodeship, 50-155, Poland",
+                "place_id": "11088412",
+                "class": "place",
+                "type_2": "house",
+                "road": "Jana Ewangelisty Purkyniego",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Wroc\u0142aw",
+                "state": "Lower Silesian Voivodeship",
+                "country_2": "Poland",
+                "postcode": "50-155"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0396465,
+                    51.110317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "798",
+                "Name": "UT Connewitz",
+                "Address": "Wolfgang-Heinze-Stra\u00dfe 12 a, 04277 Leipzig, Germany",
+                "City": "Leipzig",
+                "Country": "Germany",
+                "Website": "https://utconnewitz.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "UT Connewitz, 12a, Wolfgang-Heinze-Stra\u00dfe, Connewitz, S\u00fcd, Leipzig, Saxony, 04277, Germany",
+                "place_id": "195839402",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "Wolfgang-Heinze-Stra\u00dfe",
+                "village": null,
+                "city_district": "S\u00fcd",
+                "town": null,
+                "city_2": "Leipzig",
+                "state": "Saxony",
+                "country_2": "Germany",
+                "postcode": "04277"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.372461997988282,
+                    51.30886395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "799",
+                "Name": "Cafe Glocksee",
+                "Address": "Glockseestra\u00dfe 35, 30169 Hannover, Germany",
+                "City": "Hannover",
+                "Country": "Germany",
+                "Website": "http://www.cafe-glocksee.de/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Live music and club nights. Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "UJZ Glocksee, 35, Glockseestra\u00dfe, Calenberger Neustadt, Centre, Hanover, Region Hannover, Lower Saxony, 30169, Germany",
+                "place_id": "117884163",
+                "class": "amenity",
+                "type_2": "arts_centre",
+                "road": "Glockseestra\u00dfe",
+                "village": null,
+                "city_district": "Centre",
+                "town": null,
+                "city_2": "Hanover",
+                "state": "Lower Saxony",
+                "country_2": "Germany",
+                "postcode": "30169"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.72002393116955,
+                    52.37168165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "800",
+                "Name": "Turner Hall Ballroom",
+                "Address": "Turner Hall, 1040 Vel R. Phillips Ave, Milwaukee, WI 53203",
+                "City": "Milwaukee",
+                "Country": "USA",
+                "Website": "https://www.pabsttheatergroup.com/venues/detail/turner-hall-ballroom",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Turner Hall, 1040, Vel R. Phillips Ave, Theater District, Milwaukee, Milwaukee County, Wisconsin, 53203, United States",
+                "place_id": "122603295",
+                "class": "historic",
+                "type_2": "building",
+                "road": "Vel R. Phillips Ave",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Milwaukee",
+                "state": "Wisconsin",
+                "country_2": "United States",
+                "postcode": "53203"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.91553178499089,
+                    43.04381025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "801",
+                "Name": "Gabe's",
+                "Address": "330 E Washington St, Iowa City, IA 52240",
+                "City": "Iowa City",
+                "Country": "USA",
+                "Website": "https://www.icgabes.com/",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "Gabe's, 330, East Washington Street, Iowa City, Johnson County, Iowa, 52240, United States",
+                "place_id": "371477966",
+                "class": "amenity",
+                "type_2": "events_venue",
+                "road": "East Washington Street",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Iowa City",
+                "state": "Iowa",
+                "country_2": "United States",
+                "postcode": "52240"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -91.53046467546454,
+                    41.6603615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "802",
+                "Name": "Sleeping Village",
+                "Address": "3734 W Belmont Ave, Chicago, IL 60618",
+                "City": "Chicago",
+                "Country": "USA",
+                "Website": "http://sleeping-village.com/",
+                "Type": "pubandvenue",
+                "Type_Public": "pub and venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "way",
+                "display_name": "3734, West Belmont Avenue, Avondale, Chicago, Jefferson Township, Cook County, Illinois, 60618, United States",
+                "place_id": "343052529",
+                "class": "building",
+                "type_2": "yes",
+                "road": "West Belmont Avenue",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Chicago",
+                "state": "Illinois",
+                "country_2": "United States",
+                "postcode": "60618"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.72129061623528,
+                    41.9393519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "803",
+                "Name": "Casa del Popolo",
+                "Address": "4873 Boulevard Saint-Laurent, Montreal",
+                "City": "Montreal",
+                "Country": "Canada",
+                "Website": "https://casadelpopolo.com/en/events/casa-del-popolo",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "Casa del Popolo, 4873, Boulevard Saint-Laurent, Mile-End, Le Plateau-Mont-Royal, Montreal, Urban agglomeration of Montreal, Montreal (administrative region), Quebec, H2T 1R6, Canada",
+                "place_id": "369697100",
+                "class": "amenity",
+                "type_2": "bar",
+                "road": "Boulevard Saint-Laurent",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Montreal",
+                "state": "Quebec",
+                "country_2": "Canada",
+                "postcode": "H2T 1R6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5905643,
+                    45.5221705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "804",
+                "Name": "La Sala Rossa",
+                "Address": "4848 Boul. Saint-Laurent, Montreal",
+                "City": "Montreal",
+                "Country": "Canada",
+                "Website": "https://casadelpopolo.com/en/events/la-sala-rossa",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "La Sala Rossa, 4848, Boulevard Saint-Laurent, Mile-End, Le Plateau-Mont-Royal, Montreal, Urban agglomeration of Montreal, Montreal (administrative region), Quebec, H2T 1R5, Canada",
+                "place_id": "41135297",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "Boulevard Saint-Laurent",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Montreal",
+                "state": "Quebec",
+                "country_2": "Canada",
+                "postcode": "H2T 1R5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5888689,
+                    45.5210975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ID": "805",
+                "Name": "La Sotterenea",
+                "Address": "4848 Boul. Saint-Laurent, Montreal",
+                "City": "Montreal",
+                "Country": "Canada",
+                "Website": "https://casadelpopolo.com/en/events/la-sotterenea",
+                "Type": "venue",
+                "Type_Public": "venue",
+                "Food": "no",
+                "Description": "Check their website for metal shows. You might get lucky.",
+                "Review": "",
+                "osm_type": "node",
+                "display_name": "La Sala Rossa, 4848, Boulevard Saint-Laurent, Mile-End, Le Plateau-Mont-Royal, Montreal, Urban agglomeration of Montreal, Montreal (administrative region), Quebec, H2T 1R5, Canada",
+                "place_id": "41135297",
+                "class": "amenity",
+                "type_2": "theatre",
+                "road": "Boulevard Saint-Laurent",
+                "village": null,
+                "city_district": null,
+                "town": null,
+                "city_2": "Montreal",
+                "state": "Quebec",
+                "country_2": "Canada",
+                "postcode": "H2T 1R5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5888689,
+                    45.5210975
                 ]
             }
         }
