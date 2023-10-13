@@ -1,0 +1,165 @@
+html,
+body,
+html,
+body {
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    color: #1f1412;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 501;
+    position: relative;
+}
+
+.header h5 {
+    font-style: italic;
+    background: white;
+    color: black;
+    z-index: 501;
+    position: relative;
+}
+
+img {
+    float: left;
+    left: 70%;
+    top: 0px;
+    z-index: 500;
+}
+
+.header a span {
+    margin-left: 4px;
+}
+
+.header a svg {
+    vertical-align: middle;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #1f1412;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #313131;
+    background-color: #aad3df;
+}
+
+.sidepanel-content {
+    font-size: 1rem;
+}
+
+.sidepanel-content h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sidepanel-content a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #199900;
+    /* transition: color 0.3s ease-in; */
+}
+
+.sidepanel-content a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+input#locationtype,
+#name,
+#addy,
+#country,
+#hours,
+#website,
+#description[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #188205;
+    color: #313131;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+input[type=reset] {
+    background-color: #188205;
+    color: #313131;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.leaflet-control-search .search-input {
+    display: block;
+    float: left;
+    background: #fff;
+    border: 1px solid #666;
+    border-radius: 2px;
+    height: 22px;
+    padding: 0 20px 0 2px;
+    margin: 4px 0 4px 4px
+}
+
+#popuptitle {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* address and review fonts in sidepanel */
+#f1,
+#f5 {
+    font-style: italic;
+    /* color: #666; */
+}
+
+@media all and (min-width: 1024px) {
+    #map {
+        height: 768px;
+        width: 1024px;
+        background-color: #aad3df;
+    }
+}
