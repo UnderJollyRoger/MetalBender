@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MetalBender</title>
+    <link rel="icon" type="image/png" href="images/logolink.svg" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Describe this page for search engines -->
+    <meta name="MetalBender"
+        content="Find venues, pubs, restaurants, festivals and record stores that cater to the metal scene.">
+    <!--Leaflet CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <script type="text/javascript" src="dist/leaflet.ajax.js"></script>
+    <!--JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!--Leaflet.markercluster CDN -->
+    <link rel="stylesheet" href="../dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="../dist/MarkerCluster.Default.css" />
+    <script src="../dist/leaflet.markercluster-src.js"></script>
+    <!--Leaflet.Control.Search-->
+    <link rel="stylesheet" href="dist/leaflet-search.min.css" />
+    <script src="dist/leaflet-search.min.js"></script>
+    <!-- My own external CSS for various parts -->
+    <link rel="stylesheet" href="/main.css">
+    <!-- font-awesome for zoom/home button -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <!-- Leaflet.Zoomhome -->
+    <link rel="stylesheet" href="/dist/leaflet.zoomhome.css" />
+    <script src="/dist/leaflet.zoomhome.min.js"></script>
+    <!-- OSM search CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <!-- Leaflet.Sidepanel -->
+    <link rel="stylesheet" href="/dist/leaflet-sidepanel.css" />
+    <script src="./dist/leaflet-sidepanel.min.js"></script>
+    <!-- Leaflet.Legend -->
+    <link rel="stylesheet" href="/dist/leaflet.legend.css" />
+    <script src="/dist/leaflet.legend.js"></script>
+    <!-- leaflet locate control-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js"
+        charset="utf-8"></script>
+
+    <!-- jQuery code to help with :hover on iOS devices -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+                $("input[type=submit]").click(function () { });
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <script>
+        //Make older browsers aware of new HTML5 layout tags
+        'header nav aside article footer section figure figcaption'.replace(/\w+/g, function (n) { document.createElement(n) })
+    </script>
+    <div class="header">
+        <img src="images/logo2.svg" style="display: inline-block;" alt="logo">
+        <h6>Find venues, festivals, record stores, restaurants and watering holes that cater to the metal scene.</h6>
+    </div>
+
+    <!-- <img src="images/quinn.png" style="display: inline-block;"> -->
+    <!-- Map ID -->
+    <div id="map">
+        <!-- Side Panel right -->
+        <div id="mySidepanelRight" class="sidepanel" aria-label="side panel" aria-hidden="false">
+            <div class="sidepanel-inner-wrapper">
+                <nav class="sidepanel-tabs-wrapper" aria-label="sidepanel tab navigation">
+                    <ul class="sidepanel-tabs">
+                        <li class="sidepanel-tab">
+                            <a href="#" class="sidebar-tab-link" role="tab" data-tab-link="tab-1">
+                                Info
+                            </a>
+                        </li>
+                        <li class="sidepanel-tab">
+                            <a href="#" class="sidebar-tab-link" role="tab" data-tab-link="tab-2">
+                                Reviews
+                            </a>
+                        </li>
+                        <li class="sidepanel-tab">
+                            <a href="#" class="sidebar-tab-link" role="tab" data-tab-link="tab-3">
+                                Forms
+                            </a>
+                        </li>
+                        <li class="sidepanel-tab">
+                            <a href="#" class="sidebar-tab-link" role="tab" data-tab-link="tab-4">
+                                Legend
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="sidepanel-content-wrapper">
+                    <div class="sidepanel-content">
+                        <!-- Info tab -->
+                        <div class="sidepanel-tab-content" data-tab-content="tab-1">
+                            <div class="container">
+                                <h5 id="popuptitle" style="display: inline-block">Info will show here when you click a
+                                    location in the map.</h5>
+                                <h6 id="f1" style="display: inline-block"></h6>
+                                <div id="f3"></div>
+                            </div>
+                        </div>
+                        <!-- Reviews tab -->
+                        <div class="sidepanel-tab-content" data-tab-content="tab-2">
+                            <div class="container">
+                                <h5 id="popupname"></h5>
+                                <h5 id="f4" style="display: inline-block">Reviews will show here when you click a
+                                    location in the map.</h5>
+                                <h6 id="f5" style="display: inline-block"></h6>
+                            </div>
+                        </div>
+                        <!-- Forms tab -->
+                        <div class="sidepanel-tab-content" data-tab-content="tab-3">
+                            <div>
+                                <div class="container">
+                                    <div>Know of a location? Fill out this form!</div>
+                                    <div>
+                                        <iframe width="560px" height="315px"
+                                            src="https://docs.google.com/forms/d/e/1FAIpQLSd1GMmaV4xOaCaDNxFvUp0MqO15A1fyJmzBwOVFdOXw3E9INg/viewform?embedded=true"
+                                            frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <hr size="20" color="green">
+                                <div class="container">
+                                    <div>Want to leave a review? Fill out this form!</div>
+                                    <div>
+                                        <iframe width="560px" height="315px"
+                                            src="https://docs.google.com/forms/d/e/1FAIpQLSeTQK301n0dQxbiz-YhN-TIgoys3eT6zTILQhStlqrYNvLIcA/viewform?embedded=true"
+                                            frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+                        <!-- Legend tab -->
+                        <div class="sidepanel-tab-content" data-tab-content="tab-4">
+                            <div class="container">
+                                <div>
+                                    <img src="images/festival.svg" alt="festival" style="vertical-align: middle;"
+                                        width="64px" height="64px">
+                                    <span>festival</span>
+                                </div>
+                                <div>
+                                    <img src="images/pub.svg" alt="pub" height="64px" width="64px"
+                                        style="vertical-align: middle;">
+                                    <span>pub</span>
+                                </div>
+                                <div>
+                                    <img src="images/pubandrestaurant.svg" alt="pubandrestaurant" height="64px"
+                                        width="64px" style="vertical-align: middle;">
+                                    <span>pub and restaurant</span>
+                                </div>
+                                <div>
+                                    <img src="images/pubandvenue.svg" alt="pubandvenue" height="64px" width="64px"
+                                        style="vertical-align: middle;">
+                                    <span>pub and venue</span>
+                                </div>
+                                <div>
+                                    <img src="images/restaurantandvenue.svg" alt="restaurantandvenue" height="64px"
+                                        width="64px" style="vertical-align: middle;">
+                                    <span>restaurant and venue</span>
+                                </div>
+                                <div>
+                                    <img src="images/recordstore.svg" alt="record store" height="64px" width="64px"
+                                        style="vertical-align: middle;">
+                                    <span>record store</span>
+                                </div>
+                                <div>
+                                    <img src="images/venue.svg" alt="venue" height="64px" width="64px"
+                                        style="vertical-align: middle;">
+                                    <span>venue</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidepanel-toggle-container">
+                <button class="sidepanel-toggle-button" type="button" aria-label="toggle side panel"></button>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script>
+        var map = L.map('map', { zoomControl: false, minZoom: 1.5, maxZoom: 18 }).setView([14, 0], 0);
+        map.setMaxBounds([[-90, -180], [90, 180]]);
+
+
+
+        // create OSM basemap
+        var osm = new L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors',
+            noWrap: true,
+        }).addTo(map);
+
+        var zoomHome = L.Control.zoomHome({ position: 'bottomleft' });
+        zoomHome.addTo(map);
+
+        // Sidepanel
+        const sidepanelRight = L.control.sidepanel('mySidepanelRight', {
+            panelPosition: 'right',
+            tabsPosition: 'top',
+            pushControls: true,
+            darkMode: true,
+            startTab: 'tab-1'
+        }).addTo(map);
+
+        // load geojson and add custom icons to points
+        $.getJSON("points.geojson", function (data) {
+            var metallocations = L.geoJson(data, {
+                pointToLayer: function geojsonType(feature, latlng) {
+                    switch (feature.properties["Type"]) {
+                        case "festival":
+                            var festivalIcon = new L.icon({
+                                iconUrl: 'images/festival.svg', //assign PNG
+                                iconSize: [52, 52], // size of the icon
+                            });
+                            return L.marker(latlng, { icon: festivalIcon }).bindPopup("<strong>" + feature.properties.Name + '</strong>' + "<br>" +
+                                feature.properties.Address + "<em>" + "<h6>" + "click sidebar info tab for details" + "</h6>" + "</em>");
+
+                        case "pub":
+                            var pubIcon = new L.icon({
+                                iconUrl: 'images/pub.svg', //assign PNG
+                                iconSize: [72, 82], // size of the icon
+                            });
+                            return L.marker(latlng, { icon: pubIcon }).bindPopup("<strong>" + feature.properties.Name + '</strong>' + "<br>" +
+                                feature.properties.Address + "<em>" + "<h6>" + "click sidebar info tab for details" + "</h6>" + "</em>");
+
+                        case "pubandrestaurant":
+                            var pubandrestaurantIcon = new L.icon({
+                                iconUrl: 'images/pubandrestaurant.svg', //assign PNG
+                                iconSize: [52, 52], // size of the icon
+                            });
+                            return L.marker(latlng, { icon: pubandrestaurantIcon }).bindPopup("<strong>" + feature.properties.Name + '</strong>' + "<br>" +
+                                feature.properties.Address + "<em>" + "<h6>" + "click sidebar info tab for details" + "</h6>" + "</em>");
+
+                        case "pubandvenue":
+                            var pubandvenueIcon = new L.icon({
+                                iconUrl: 'images/pubandvenue.svg', //assign PNG
+                                iconSize: [52, 52], // size of the icon
+                            });
+                            return L.marker(latlng, { icon: pubandvenueIcon }).bindPopup("<strong>" + feature.properties.Name + '</strong>' + "<br>" +
+                                feature.properties.Address + "<em>" + "<h6>" + "click sidebar info tab for details" + "</h6>" + "</em>");
+
+                        case "recordstore":
+                            var recordstoreIcon = new L.icon({
+                                iconUrl: 'images/recordstore.svg', //assign PNG
+                                iconSize: [72, 82], // size of the icon
+                            });
+                            return L.marker(latlng, { icon: recordstoreIcon }).bindPopup("<strong>" + feature.properties.Name + '</strong>' + "<br>" +
+                                feature.properties.Address + "<em>" + "<h6>" + "click sidebar info tab for details" + "</h6>" + "</em>");
+
+                        case "venue":
+                            var venueIcon = new L.icon({
+                                iconUrl: 'images/venue.svg', //assign PNG
+                                iconSize: [52, 52], // size of the icon
+                            });
+                            return L.marker(latlng, { icon: venueIcon }).bindPopup("<strong>" + feature.properties.Name + '</strong>' + "<br>" +
+                                feature.properties.Address + "<em>" + "<h6>" + "click sidebar info tab for details" + "</h6>" + "</em>");
+                    }
+                },
+
+                onEachFeature: function (feature, layer) {
+                    layer.on('click', function (e) {
+                        // get coordinates from GeoJSON
+                        var coords = feature.geometry.coordinates
+                        //pass coords to function to create marker.(Yellow circle)
+                        onMapClick(coords);
+
+                        //place attributes in panel table.
+                        var fieldA = document.getElementById('popuptitle');
+                        fieldA.innerHTML = "<a href='" + feature.properties.Website + "' target='_blank'>" + feature.properties.Name + "</a>";
+                        var fieldB = document.getElementById('popupname');
+                        fieldB.innerHTML = feature.properties.Name;
+                        var field1 = document.getElementById('f1');
+                        field1.innerHTML = feature.properties.Address;
+                        var field3 = document.getElementById('f3');
+                        field3.innerHTML = e.target.feature.properties.Description;
+                        var field4 = document.getElementById('f4');
+                        field4.innerHTML = feature.properties.Review;
+                        var field5 = document.getElementById('f5');
+                        field5.innerHTML = feature.properties.Reviewer;
+                    });
+                }
+            });
+            //             map.fitBounds(metallocations.getBounds());
+
+            var clusters = L.markerClusterGroup({
+                spiderfyOnMaxZoom: true,
+                showCoverageOnHover: false,
+                zoomToBoundsOnClick: true
+            });
+            clusters.addLayer(metallocations);
+            map.addLayer(clusters);
+            // // add city search
+            // map.addControl(new L.Control.Search({
+            //     layer: clusters,
+            //     textPlaceholder: 'Search by type...',
+            //     propertyName: 'Type',
+            //     position: "topleft",
+            //     autoCollapse: true,
+            //     marker: false,
+            //     textErr: "No results found...",
+            //     moveToLocation: function (latlng) {
+            //         map.setView(latlng, 10);
+            //     }
+            // })
+            // );
+            // end getJSON
+        },
+        );
+
+        // click marker
+        var clickmark;
+        // When you click on a circle, it calls the onMapClick function and passes the layers coordinates.
+        // grab the coords which are X,Y, and flip them to latLng for a marker,
+        function onMapClick(coords) {
+            console.log(coords);
+            var thecoords = coords.toString().split(',');
+            var lat = thecoords[1];
+            var lng = thecoords[0];
+            //if prior marker exists, remove it.
+            if (clickmark != undefined) {
+                map.removeLayer(clickmark);
+            };
+
+        }
+        // end of code for click marker.
+
+        //Leaflet.Search.Control by country
+        var CountryStyle = {
+            "color": "none",
+            "strokeWeight": 0,
+            "fillOpacity": 1,
+        };
+        var countries_geojson = new L.GeoJSON.AJAX("countries.geojson", { style: CountryStyle });
+        countries_geojson.on('data:loaded', function () {
+            countries_geojson.addTo(map);
+        });
+        var CountrysearchControl = new L.Control.Search({
+            layer: countries_geojson,
+            propertyName: 'ADMIN',
+            marker: false,
+            position: "topleft",
+            textPlaceholder: 'Search by country...',
+            autoCollapse: true,
+            // autoCollapseTime: 1200,
+            textErr: 'No results found...',
+            moveToLocation: function (latlng) {
+                map.setView(latlng, 6); // access zoom level
+            }
+        }
+        );
+        map.addControl(CountrysearchControl); //inizialize search control
+
+        // OSM search
+        var geocoder = L.Control.geocoder({
+            defaultMarkGeocode: true,
+            position: "topleft",
+            placeholder: "Search by address...",
+            text: 'Search'
+        }).addTo(map);
+
+        // leaflet locate control
+        var lc = L.control
+            .locate({
+                flyTo: true,
+                position: "bottomleft",
+                strings: {
+                    title: "Locate me"
+                },
+                locateOptions: {
+                      enableHighAccuracy: true
+                }
+            })
+            .addTo(map);
+
+    </script>
+</body>
+
+</html>
